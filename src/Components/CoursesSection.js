@@ -1,7 +1,11 @@
 import React from "react";
 
 function CoursesSection() {
-  return <div>sss</div>;
+  return (
+    <>
+      <div>cccc</div>
+    </>
+  );
 }
 
 export default CoursesSection;
