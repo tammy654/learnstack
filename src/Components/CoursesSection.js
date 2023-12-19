@@ -3,8 +3,10 @@ import React from "react";
 function CoursesSection() {
   return (
     <>
-      <Header />
-    <Header />
+      <p>
+        kgkugkugkug
+      </p>
+ 
     </>
   );
 }
