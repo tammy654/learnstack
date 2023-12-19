@@ -132,3 +132,167 @@
     letter-spacing: 0.25px; 
     word-wrap: break-word;
   }
+
+  .nav{
+    width:100%; 
+    height: 90px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-bg);
+   
+    z-index: 1000; 
+    transition: all 0.7s ease-out;
+  }
+  .nav .sub{
+    width: 90%; 
+    height: 100%;
+    padding-inline: clamp(15px, 2vw, 50px); 
+    left: 0px; 
+    top: 20px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0px; 
+    display: inline-flex;
+    margin: auto;
+  }
+  .nav .sub .navbrand{
+    min-width: fit-content;
+    max-width: auto;
+    min-height: 70px;
+    z-index: 2;
+    position: relative; 
+    margin-inline: 0%;
+    margin-right: clamp(30px, 10vw, 250px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .nav .sub .navbrand .logoMark{
+    width:fit-content;
+    height: 90px;
+  }
+  .nav .sub .menu{ 
+    display:flex;
+    height: 100%;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+  }
+  .nav .sub .menu .linkSecInHeader{
+    width: auto;
+    justify-content: center; 
+    align-items: center; 
+    gap: 16px; 
+    display: flex;
+    float: right;
+    /* background-color:black; */
+  } 
+  .nav .sub .menu .linkSecInHeader .menuLink{
+    padding: 8px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex;
+    /* background-color: #08bcdd; */
+  }
+  .nav .sub .menu .linkSecInHeader .menuLink:hover a{
+    color: var(--accent_color_1);
+  
+  }
+  .nav .sub .menu .linkSecInHeader .menuLink a{ 
+    color: var(--dark_color);  
+    word-wrap: break-word;
+    display: flex;
+    text-align: center;
+    padding-block: 1rem 1rem;
+    text-decoration: none;
+    text-transform: none;
+    font-family: var(--text_font2);
+    font-size: clamp(1rem, 2vw, 1.6rem);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    cursor: pointer;
+  }
+  .nav .sub .menu .linkSecInHeader  a.active{
+    color: var(--accent_color_1);
+  }
+  .nav .sub button{ 
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    transition: all 0.3s ease-in-out 0s;
+    /* background-color:red; */
+  }
+  
+  .nav .sub .menu .linkSecInHeader .searchbar{
+    margin: auto;
+    width: clamp(250px, 2vw, 300px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    border-radius: 40px;
+    border: 1px solid var(--accent_color_1);
+    background: #FBFBFB;
+  }
+  .nav .sub .menu .linkSecInHeader .searchbar input{
+  
+    height: 40px;
+    outline: none;
+    display: flex;
+    padding: 10px 10px;
+    align-items: flex-start;
+    outline: none;
+    border-radius:  40px 0px 0px 40px  ;
+    border: 1px solid var();
+    margin-bottom: 0px;
+    background: var(--light-1);
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+    &:focus {
+      border: 1px solid transparent;
+      box-shadow: 0px 0px 0px 1px #2D2D2D;
+      background-color: var(--bg_color_1)
+    }
+  }
+  .nav .sub .menu .linkSecInHeader .searchbar .btn{
+    height: 40px;
+    border-radius:  0px 50px 50px 0px  ;
+    background-color: var(--accent_color_1);
+  }
+  .nav .sub .menu .linkSecInHeader .searchbar .btn i{
+    font-size: 16px;
+    color: var(--primary_color);
+  }
+  .nav .sub .out_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .nav .sub .out_menu .toggleMenu{  
+    height: 35px;
+    width: 35px;
+   
+    outline: 1px solid;
+    border-radius: 5px;
+    outline-color: var(--accent_color_1);
+    /* background-color: #08bcdd; */
+    color: var(--accent_color_1);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    z-index: 5000;
+  
+  }
+  .nav .sub .out_menu i{
+    font-size: 25px;
+    color: var(--accent_color_1);
+    margin-inline: 10px;
+    float: right;
+  }
