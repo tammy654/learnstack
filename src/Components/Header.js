@@ -39,7 +39,7 @@ function Header() {
                     </div>
                     <div className='click'>
                         <Link to="/register">
-                            <button className="btn w3-hide-small">
+                            <button className="btn2 w3-hide-small">
                             <p>Sign In</p>
                             </button>
                         </Link>
