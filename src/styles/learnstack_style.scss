@@ -14,7 +14,7 @@
     --overlay_color_3: #ffebeb;
     --primary_color: #EFEFEF;
     --support_color: #FFCE00;
-    --bg_color_1: #FEFEFE;
+    --bg_color_1: #FFF8F0;
     --bg_color_2: #2D2D2D;
     --white-bg: #fefefe;
     --error-color: #e63946;
@@ -28,9 +28,9 @@
     --header: radial-gradient(ellipse, #007B00 40%, #FFD02F );
     --header2: radial-gradient(ellipse, #06151b 40%, #06151b );
     --header3: radial-gradient(ellipse, #ffffff 40%, #cacaca );
-    --text_font1: "poppins";
-    --text_font2: "rubik";
-      font-family: "poppins";
+    --text_font1: "Aeonik Medium";
+    --text_font2: "Aeonik Medium";
+      font-family: "Aeonik Medium";
   } 
   html{
   font-size: 62.5%;
@@ -132,19 +132,18 @@
     letter-spacing: 0.25px; 
     word-wrap: break-word;
   }
-
   .btn{
-    width: fit-content;
-    height: clamp(4rem, 2vw, 4rem);
+    width: 133px;
+    height: clamp(48px, 2vw, 48px);
     font-size: clamp(1.1rem, 2vw, 1.4rem);
     font-weight: 400;
     border: none;
     transition: all 0.3s ease-in-out 0s;
     position: relative;
-    padding:  12px 41px; 
+    padding:  15px 35px; 
     color: var(--text_color_2);
     background: var(--accent_color_1);
-    border-radius: 24px; 
+    border-radius: 8px;
     display: inline-flex;
     justify-content: center; 
     align-items: center; 
@@ -190,22 +189,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--white-bg);
-   
     z-index: 1000; 
     transition: all 0.7s ease-out;
   }
   .nav .sub{
     width: 90%; 
     height: 100%;
-    padding-inline: clamp(15px, 2vw, 50px); 
     left: 0px; 
     top: 20px; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
     gap: 0px; 
-    display: inline-flex;
     margin: auto;
+
   }
   .nav .sub .navbrand{
     min-width: fit-content;
@@ -213,31 +211,30 @@
     min-height: 70px;
     z-index: 2;
     position: relative; 
-    margin-inline: 0%;
-    margin-right: clamp(30px, 10vw, 250px);
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto;
   }
   .nav .sub .navbrand .logoMark{
     width:fit-content;
-    height: 90px;
+    height: 60px;
   }
   .nav .sub .menu{ 
-    display:flex;
+    width: fit-content;
     height: 100%;
+    display:flex;
     justify-content: center; 
-    align-items: center; 
-    gap: 10px; 
+    align-items: center;  
+    margin: auto;
   }
   .nav .sub .menu .linkSecInHeader{
-    width: auto;
+    width: fit-content;
+    display: flex;
     justify-content: center; 
     align-items: center; 
-    gap: 16px; 
-    display: flex;
-    float: right;
-    /* background-color:black; */
+    gap: 60px; 
   } 
   .nav .sub .menu .linkSecInHeader .menuLink{
     padding: 8px; 
@@ -269,16 +266,7 @@
   .nav .sub .menu .linkSecInHeader  a.active{
     color: var(--accent_color_1);
   }
-  .nav .sub button{ 
-    margin: auto;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    transition: all 0.3s ease-in-out 0s;
-    /* background-color:red; */
-  }
-  
+
   .nav .sub .menu .linkSecInHeader .searchbar{
     margin: auto;
     width: clamp(250px, 2vw, 300px);
@@ -318,13 +306,23 @@
     font-size: 16px;
     color: var(--primary_color);
   }
-  .nav .sub .out_menu{
+  .nav .sub .click{
+    width: fit-content;
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    gap: 24px;
   }
-  .nav .sub .out_menu .toggleMenu{  
+  .nav .sub button{ 
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    transition: all 0.3s ease-in-out 0s;
+    /* background-color:red; */
+  }
+
+  .toggleMenu{  
     height: 35px;
     width: 35px;
    
@@ -339,10 +337,4 @@
     justify-content: center;
     z-index: 5000;
   
-  }
-  .nav .sub .out_menu i{
-    font-size: 25px;
-    color: var(--accent_color_1);
-    margin-inline: 10px;
-    float: right;
   }

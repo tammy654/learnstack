@@ -36,6 +36,8 @@ function Header() {
                                 <a ><NavLink activeClassName="active" to="/contact"  id="contact">Contact Us</NavLink></a>
                             </li>
                         </ul>
+                    </div>
+                    <div className='click'>
                         <Link to="/register">
                             <button className="btn w3-hide-small">
                             <p>Sign In</p>
@@ -47,13 +49,9 @@ function Header() {
                             </button>
                         </Link>
                     </div>
-                
-                    <div class='out_menu'>
-                        <i class="fa-regular fa-moon" ></i>
-                        
-                        <a href="javascript:void(0)" class="w3-right w3-hide-large  w3-cell-middle toggleMenu" onClick={menuDropClose} >&#9776;</a>
                     
-                    </div>
+                    <a href="javascript:void(0)" class="w3-right w3-hide-large  w3-cell-middle toggleMenu" onClick={menuDropClose} >&#9776;</a>
+                    
                 </div>
             </div> 
             <ul id="menuDrpdown" class="menuDrpdown  w3-hide w3-hide-large  w3-bar-block w3-top">
