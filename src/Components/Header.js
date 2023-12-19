@@ -16,32 +16,36 @@ function Header() {
         <main>
             <div class="nav w3-bar w3-top">
                 <div class="sub w3-cell">
-                    <div class="navbrand w3-col l1 m1 s1"><img class="logoMark" src={ require ("../img/tarbeat_logo.png")} alt="oracle_trading_logo" /></div>
+                    <div class="navbrand w3-col l1 m1 s1"><img class="logoMark" src={ require ("../img/learnstack-logo.png")} alt="oracle_trading_logo" /></div>
                     <div class="menu ">
                         <ul class="linkSecInHeader w3=cell">
                             <li class="home menuLink w3-hide-medium w3-hide-small" >
                                 <a ><NavLink exact activeClassName="active" to="/"  id="home">Home</NavLink></a >
                             </li>
-                            <li class="menuLink w3-hide-medium w3-hide-small" >
-                                <a ><NavLink activeClassName="active" to="/product"  id="product">Our Products</NavLink></a >
-                            </li>
-                            <li class="menuLink w3-hide-medium w3-hide-small" >
-                                <a ><NavLink activeClassName="active" to="/training"  id="team">Training</NavLink></a>
-                            </li>
                             <li class="about menuLink w3-hide-medium w3-hide-small" >
                                 <a ><NavLink activeClassName="active" to="/about"  id="about">About Us</NavLink></a >
                             </li>
-                            <li class="contact menuLink w3-hide-medium w3-hide-small" >
-                                <a ><NavLink activeClassName="active" to="/contact"  id="contact">Contact</NavLink></a>
+                            <li class="menuLink w3-hide-medium w3-hide-small" >
+                                <a ><NavLink activeClassName="active" to="/courses"  id="product">Our Courses</NavLink></a >
                             </li>
-                            <br/>
-                            <div class="searchbar w3-hide-medium w3-hide-small">  
-                                <input type="search" name="search"  id="search0" placeholder="Enter Keyword..." class="w3-col l10 m10 s10" />
-                                <button  class="btn w3-col l2 m2 s2">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </button>
-                            </div>
+                            <li class="menuLink w3-hide-medium w3-hide-small" >
+                                <a ><NavLink activeClassName="active" to="/blogs"  id="team">Blogs</NavLink></a>
+                            </li>
+                           
+                            <li class="contact menuLink w3-hide-medium w3-hide-small" >
+                                <a ><NavLink activeClassName="active" to="/contact"  id="contact">Contact Us</NavLink></a>
+                            </li>
                         </ul>
+                        <Link to="/register">
+                            <button className="btn w3-hide-small">
+                            <p>Sign In</p>
+                            </button>
+                        </Link>
+                        <Link to="/register">
+                            <button className="btn w3-hide-small">
+                            <p>Register</p>
+                            </button>
+                        </Link>
                     </div>
                 
                     <div class='out_menu'>
