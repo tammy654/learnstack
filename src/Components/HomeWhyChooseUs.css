@@ -1,0 +1,65 @@
+
+.home-why-choose-us{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+}
+
+
+.home-why-choose-us .home-why-choose-us-item{
+    background: #8AD29B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.home-why-choose-us h2{
+    font-weight: bold;
+}
+.home-why-choose-us h5{
+    color: darkgreen;
+    font-weight: bold;
+}
+.item-check-box{
+    padding: 5px;
+    background-color: white;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    color: darkgreen;
+}
+
+.first-part{
+    display: flex;
+    align-items: center;
+}
+
+.abs-img{
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    width: 100px;
+    
+}
+
+
+@media only screen and (min-width: 834px){
+    .home-why-choose-us{
+       display: grid;
+       grid-template-columns: 50% 45%;
+       gap: 5%;
+    }
+    
+    .home-why-choose-us .home-why-choose-us-items{
+    margin-top: 200px;
+    
+    }
+
+    .abs-img{
+        position: absolute;
+        right: 20px;
+    }
+   
+}

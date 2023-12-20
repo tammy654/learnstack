@@ -1,0 +1,66 @@
+.home-start-learning{
+    background-color: white;
+    margin-top: 100px;
+
+}
+
+.center-text-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.center-text-wrapper {
+    text-align: center;
+    position: relative;
+}
+
+.absolutepic{
+    position: absolute;
+}
+.absolutepic1{
+    top: 100px;
+    left: 10%;
+}
+.absolutepic2{
+    top: 20px;
+    left: 30%;
+}
+.absolutepic3{
+    top: 30px;
+    left: 60%;
+}
+.absolutepic4{
+    top: 100px;
+    right: 10%;
+}
+
+.absolutepic5{
+    bottom: 130px;
+    left: 10%;
+}
+.absolutepic6{
+    bottom: 50px;
+    left: 20%;
+}
+.absolutepic7{
+    bottom: 30px;
+    right: 30%;
+}
+.absolutepic8{
+    bottom: 130px;
+    right: 10%;
+}
+
+
+@media only screen and (min-width: 865px){
+    .center-text-wrapper{
+
+        height: 450px;
+    }
+    .center-text h3{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+}
