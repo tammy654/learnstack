@@ -1,11 +1,8 @@
 
 .hero-section{
-   
-  
     padding: 20px;
     padding-top: 40px;
 }
-
 .hero-section .hero-section-text{
     margin-top: 160px;
 }
@@ -14,23 +11,17 @@
     font-weight: bold;
     line-height: 45px;
 }
-
 .hero-section .hero-section-text h2 span{
     color: orangered;
 }
-
-
 .hero-section .btn{
  padding-inline: 20px;
  width: fit-content;
-
 }
-
 .hero-section-image {
     position: relative;
     display: none;
 }
-
 .hero-section-image .panel1{
     position: absolute;
     background-color: white;
@@ -39,30 +30,24 @@
     padding: 10px;
     border-radius: 10px;
 }
-
 .hero-section-image .panel2{
     position: absolute;
-   
     top: 240px;
     right: 30px;
     padding: 10px;
     border-radius: 10px;
 }
-
 .hero-section-image .panel2 .btn{
 background-color: #FE7760;
 }
-
 .hero-section-image .panel1 .rating{
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
-
 .hero-section-image .rotate-img{
     animation: rotate-img 5s infinite;
     transition: 0.5s;
 }
-
 @keyframes rotate-img {
     from{
         transform: rotate(0deg);
@@ -71,16 +56,13 @@ align-items: center;
         transform: rotate(360deg);
     }
 }
-
 .hero-section-image1 {
     position: relative;
 
 }
-
 .heroImage1{
     width: 900px;
 }
-
 .hero-section-image1 .panel1{
     position: absolute;
     background-color: white;
@@ -90,8 +72,6 @@ align-items: center;
     border-radius: 10px;
     max-width: 180px;
 }
-
-
 .hero-section-image1 .panel2{
     position: absolute;
    
@@ -100,25 +80,38 @@ align-items: center;
     padding: 10px;
     border-radius: 10px;
 }
-
 .hero-section-image1 .panel2 .btn{
 background-color: #FE7760;
 font-size: 9px;
 padding: 3px 10px;
 height: 30px;
 }
-
 .hero-section-image1 .panel1 .rating{
 display: flex;
 align-items: center;
 justify-content: center;
 }
-
 .hero-section-image1 .rotate-img{
     animation: rotate-img 5s infinite;
     transition: 0.5s;
 }
-
+.test{
+    background-color: #FE7760;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.test .box{
+    width: fit-content;
+    height: fit-content;
+    padding-block: 30px;
+    background-color: bisque;
+}
 @keyframes rotate-img {
     from{
         transform: rotate(0deg);
@@ -127,7 +120,6 @@ justify-content: center;
         transform: rotate(360deg);
     }
 }
-
 @media only screen and (min-width: 834px){
     .hero-section{
        display: flex;
@@ -166,19 +158,14 @@ justify-content: center;
     
 
 }
-
-
 @media only screen and (min-width: 1000px){
-    .hero-section{
-
-    }
+    
 
     .hero-section .hero-section-text{
         max-width: 40%;
     }
 
 }
-
 @media only screen and (max-width: 500px){
     .hero-section{
         margin-top: 30px;

@@ -26,10 +26,10 @@ function Header() {
                                 <a ><NavLink activeClassName="active" to="/about"  id="about">About Us</NavLink></a >
                             </li>
                             <li class="menuLink w3-hide-medium w3-hide-small" >
-                                <a ><NavLink activeClassName="active" to="/courses"  id="product">Our Courses</NavLink></a >
+                                <a ><NavLink activeClassName="active" to="/courses"  id="courses">Our Courses</NavLink></a >
                             </li>
                             <li class="menuLink w3-hide-medium w3-hide-small" >
-                                <a ><NavLink activeClassName="active" to="/blogs"  id="team">Blogs</NavLink></a>
+                                <a ><NavLink activeClassName="active" to="/blogs"  id="blogs">Blogs</NavLink></a>
                             </li>
                            
                             <li class="contact menuLink w3-hide-medium w3-hide-small" >
@@ -39,12 +39,12 @@ function Header() {
                     </div>
                     <div className='click'>
                         <Link to="/register">
-                            <button className="btn2 w3-hide-small">
+                            <button className="btn2  w3-hide-medium w3-hide-small">
                             <p>Sign In</p>
                             </button>
                         </Link>
                         <Link to="/register">
-                            <button className="btn w3-hide-small">
+                            <button className="btn  w3-hide-medium w3-hide-small">
                             <p>Register</p>
                             </button>
                         </Link>
@@ -58,25 +58,31 @@ function Header() {
                 <li class="home menuLink" id="home" >
                 <a className='menuSmall'> <NavLink exact activeClassName="active" to="/"  id="home" onClick={menuDropClose}>Home</NavLink></a>
                 </li>
-                <li class="menuLink">
-                <a className='menuSmall'><NavLink activeClassName="active" to="/product"  id="product" onClick={menuDropClose}>Our Products</NavLink></a>
-                </li>
-                <li class="menuLink"  >
-                    <a ><NavLink activeClassName="active" to="/training"  id="training" onClick={menuDropClose}>Training</NavLink></a>
-                </li>
                 <li class="about menuLink" >
                 <a className='menuSmall'><NavLink activeClassName="active" to="/about"  id="about" onClick={menuDropClose}>About</NavLink></a>
                 </li>
+                <li class="menuLink">
+                <a className='menuSmall'><NavLink activeClassName="active" to="/courses"  id="courses" onClick={menuDropClose}>Our Courses</NavLink></a>
+                </li>
+                <li class="menuLink"  >
+                    <a ><NavLink activeClassName="active" to="/blogs"  id="blogs" onClick={menuDropClose}>Blogs</NavLink></a>
+                </li>
+
                 <li class="contact menuLink" >
                 <a className='menuSmall'><NavLink activeClassName="active" to="/contact"  id="contact" onClick={menuDropClose}>Contact</NavLink></a>
                 </li> 
-                <br/>
-                <div class="searchbar">  
-                    <input type="search" name="search"  id="search1" placeholder="Enter Keyword..." class="w3-col l10 m10 s10" />
-                    <button  class="btn w3-col l2 m2 s2">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </div>
+                <div className='click'>
+                        <Link to="/register">
+                            <button className="btn2  ">
+                            <p>Sign In</p>
+                            </button>
+                        </Link>
+                        <Link to="/register">
+                            <button className="btn ">
+                            <p>Register</p>
+                            </button>
+                        </Link>
+                    </div>  
             </ul>
             <Outlet />
         </main>

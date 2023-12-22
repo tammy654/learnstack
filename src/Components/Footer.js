@@ -108,8 +108,7 @@ function Footer() {
           <div class="line"></div>
           <div id="copyrights">
             <p>
-            Copyright 2023 All right reserve LearnStack.com Powered by Starpro Version Affiliate LTD{" "}
-              <a href="https://web.facebook.com/phelarts">Team A</a>
+            Copyright 2023 All right reserve LearnStack.com Powered by Starpro Version Affiliate LTD
             </p>
           </div>
         </div>
