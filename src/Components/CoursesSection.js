@@ -26,7 +26,7 @@ function Courses() {
         <div style={{ height: "150vh" }} className="hero-courses">
           <div className="hero-courses">
             <div
-              style={{ width: "10px", height: "20", backgroundColor: "red" }}
+              style={{ width: "20%", height: "50", backgroundColor: "blue" }}
               className="heading-line"
             ></div>
             <div className="sub-heading">
