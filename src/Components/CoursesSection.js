@@ -23,8 +23,7 @@ function Courses() {
         <link rel="canonical" href="http://learnstack.com/courses" />
       </Helmet>
       <>
-       
-        <div style={{backgroundColor: "black"}} className="hero-courses">
+        <div style={{ backgroundColor: "wheat" }} className="hero-courses">
           <div className="heading-line"></div>
           <div className="sub-heading">
             <div className="left">
