@@ -31,7 +31,7 @@ function Courses() {
               <h1>Popular Courses</h1>
             </div>
             <div className="right">
-              <h1>EXPLORE COURSES</h1>
+              <h1>EXPLORrrE COURSES</h1>
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
