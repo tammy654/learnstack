@@ -5,11 +5,10 @@ import Courses from './CoursesSection';
 
 
 
-import {AnimatePresence } from "framer-motion";
-
+import { AnimatePresence } from "framer-motion";
 
 function AnimatedRoutes() {
-    const location = useLocation();
+  const location = useLocation();
   return (
     <AnimatePresence>
          <Routes location={location} key={location.pathname}>
@@ -17,7 +16,7 @@ function AnimatedRoutes() {
             <Route path="/courses" element={<Courses />} />;
         </Routes>
     </AnimatePresence>
-  )
+  );
 }
 
-export default AnimatedRoutes
+export default AnimatedRoutes;
