@@ -30,17 +30,17 @@ function Courses() {
           <div
             style={{
               backgroundColor: "pink",
-              width: "80",
-              height: "80",
+              width: "80%",
+              height: "80%",
               marginLeft: "40px",
             }}
             className="hero-courses"
           >
-            <div
+            {/* <div
               style={{ width: "20%", height: "50", backgroundColor: "blue" }}
               className="heading-line"
-            ></div>
-            <div className="sub-heading">
+            ></div> */}
+            {/* <div className="sub-heading">
               <div className="left">
                 <h1>Popular Courses</h1>
               </div>
@@ -48,7 +48,7 @@ function Courses() {
                 <h1>EXPLORE COURSES</h1>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
+            </div> */}
             {/* <div className="first-section">
             <div className="first-a">
               <div className="top1">
