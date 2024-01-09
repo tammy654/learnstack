@@ -26,7 +26,7 @@ function Courses() {
        
         <div className="hero-courses">
           <div className="heading-line"></div>
-          <div className="sub-heading">
+          {/* <div className="sub-heading">
             <div className="left">
               <h1>Popular Courses</h1>
             </div>
@@ -265,7 +265,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </>
       <Outlet />
