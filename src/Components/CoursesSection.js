@@ -25,25 +25,20 @@ function Courses() {
       <>
         <div style={{ height: "150vh" }} className="hero-courses">
           <div className="hero-courses">
-            <h1>ggg</h1>
-          </div>
-
-          <div
-            style={{ width: "4", height: "20", backgroundColor: "pink" }}
-            className="heading-line"
-          >
-            eeeee
-          </div>
-          <div className="sub-heading">
-            <div className="left">
-              <h1>Popular Courses</h1>
+            <div
+              style={{ width: "10px", height: "20", backgroundColor: "red" }}
+              className="heading-line"
+            ></div>
+            <div className="sub-heading">
+              <div className="left">
+                <h1>Popular Courses</h1>
+              </div>
+              <div className="right">
+                <h1>EXPLORE COURSES</h1>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
             </div>
-            <div className="right">
-              <h1>EXPLORE COURSES</h1>
-              <i class="fa-solid fa-arrow-right"></i>
-            </div>
-          </div>
-          {/* <div className="first-section">
+            {/* <div className="first-section">
             <div className="first-a">
               <div className="top1">
                 <div className="amount">
@@ -157,7 +152,7 @@ function Courses() {
               </div>
             </div>
               </div> */}
-          {/* <div className="second-section">
+            {/* <div className="second-section">
             <div className="second-a">
               <div className="top1">
                 <div className="amount">
@@ -274,6 +269,7 @@ function Courses() {
               </div>
             </div>
             </div> */}
+          </div>
         </div>
       </>
       <Outlet />
