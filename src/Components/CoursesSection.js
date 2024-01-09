@@ -4,6 +4,11 @@ function CoursesSection() {
   return (
     <>
       <p>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Courses - learnstack</title>
+          <link rel="canonical" href="http://learnstack.com/courses" />
+        </Helmet>
         <div className="hero-courses">
           <div className="heading-line"></div>
           <div className="sub-heading">
