@@ -24,14 +24,14 @@ function Courses() {
       </Helmet>
       <>
        
-        <div className="hero-courses">
+        <div style={{backgroundColor: "black"}} className="hero-courses">
           <div className="heading-line"></div>
           <div className="sub-heading">
             <div className="left">
               <h1>Popular Courses</h1>
             </div>
             <div className="right">
-              <h1>EXPLORrrE COURSES</h1>
+              <h1>EXPLORE COURSES</h1>
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>

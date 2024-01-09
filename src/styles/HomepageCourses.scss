@@ -95,1118 +95,1118 @@
         margin-left: 5%;
         background-color: #007B00;
       }
-      .hero-courses .heading-line{
-        width: 4%;
-        height: 0.5%;
-        background-color: #135722;
-        margin-bottom: 20px;
-      }
-      .hero-courses .sub-heading{
-        width: 100%;
-        height: 4%;
-        display: flex;
-      }
-      .hero-courses .sub-heading .left h1{
-        color: var(--Black-Travel, #1D1C1C);
-        font-family: Aeonik TRIAL;
-        font-size: 34px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;     
-      }
-      .hero-courses .sub-heading .right{
-        display: flex;
-        margin-left: 71.7%;
-      }
-      .hero-courses .sub-heading .right h1{
-        margin-top: 20px;
-        font-family: Open Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-      .hero-courses .sub-heading .right i{
-        font-size: 20px;
-        margin-top: 17px;
-        padding-left: 5px;
-      }
+    //   .hero-courses .heading-line{
+    //     width: 4%;
+    //     height: 0.5%;
+    //     background-color: #135722;
+    //     margin-bottom: 20px;
+    //   }
+    //   .hero-courses .sub-heading{
+    //     width: 100%;
+    //     height: 4%;
+    //     display: flex;
+    //   }
+    //   .hero-courses .sub-heading .left h1{
+    //     color: var(--Black-Travel, #1D1C1C);
+    //     font-family: Aeonik TRIAL;
+    //     font-size: 34px;
+    //     font-style: normal;
+    //     font-weight: 700;
+    //     line-height: normal;     
+    //   }
+    //   .hero-courses .sub-heading .right{
+    //     display: flex;
+    //     margin-left: 71.7%;
+    //   }
+    //   .hero-courses .sub-heading .right h1{
+    //     margin-top: 20px;
+    //     font-family: Open Sans;
+    //     font-size: 14px;
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     line-height: normal;
+    //   }
+    //   .hero-courses .sub-heading .right i{
+    //     font-size: 20px;
+    //     margin-top: 17px;
+    //     padding-left: 5px;
+    //   }
          
-      .hero-courses .first-section
-      {
-        display: flex;
-        padding-top: 60px;
-        width: 100%;
-        height: 45%;
-      }
+    //   .hero-courses .first-section
+    //   {
+    //     display: flex;
+    //     padding-top: 60px;
+    //     width: 100%;
+    //     height: 45%;
+    //   }
       
-      .hero-courses .first-section .first-a, 
-      .hero-courses .first-section .first-b, 
-      .hero-courses .first-section .first-c
+    //   .hero-courses .first-section .first-a, 
+    //   .hero-courses .first-section .first-b, 
+    //   .hero-courses .first-section .first-c
 
       
-      {
-        width: 31%;
-        height: 95%;
-        flex-shrink: 0;
-        border-radius: 12px;
-        background: #FFF;   
-      }
-      .hero-courses .first-section .first-a,
-      .hero-courses .first-section .first-b
+    //   {
+    //     width: 31%;
+    //     height: 95%;
+    //     flex-shrink: 0;
+    //     border-radius: 12px;
+    //     background: #FFF;   
+    //   }
+    //   .hero-courses .first-section .first-a,
+    //   .hero-courses .first-section .first-b
 
-      {
-        margin-right: 3.5%;
-      } 
-      .hero-courses .first-section .first-a .top1,
-      .hero-courses .first-section .first-b .top2,
-      .hero-courses .first-section .first-c .top3{
-        background-image: url(../img/Rectangle\ 4407.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 48%;
-        background-color: #423e3e;
-        border-radius: 12px;
-        position: relative;
-      }
+    //   {
+    //     margin-right: 3.5%;
+    //   } 
+    //   .hero-courses .first-section .first-a .top1,
+    //   .hero-courses .first-section .first-b .top2,
+    //   .hero-courses .first-section .first-c .top3{
+    //     background-image: url(../img/Rectangle\ 4407.png);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     width: 100%;
+    //     height: 48%;
+    //     background-color: #423e3e;
+    //     border-radius: 12px;
+    //     position: relative;
+    //   }
 
-      .hero-courses .first-section .first-a .top1 .amount,
-      .hero-courses .first-section .first-b .top2 .amount,
-      .hero-courses .first-section .first-c .top3 .amount,
+    //   .hero-courses .first-section .first-a .top1 .amount,
+    //   .hero-courses .first-section .first-b .top2 .amount,
+    //   .hero-courses .first-section .first-c .top3 .amount,
 
-      .hero-courses .second-section .second-a .top1 .amount,
-      .hero-courses .second-section .second-b .top1 .amount,
-      .hero-courses .second-section .second-c .top1 .amount,
+    //   .hero-courses .second-section .second-a .top1 .amount,
+    //   .hero-courses .second-section .second-b .top1 .amount,
+    //   .hero-courses .second-section .second-c .top1 .amount,
 
-      .hero-courses .second-section .second-a .top1 .amount{
-        width: 110px;
-        height: clamp(48px, 2vw, 48px);
-        font-size: clamp(1.1rem, 2vw, 1.4rem);
-        border: none;
-        transition: all 0.3s ease-in-out 0s;
-        position: relative;
-        padding:  15px 35px; 
-        color: var(--text_color_2);
-        background: var(--accent_color_1);
-        box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.20);
-        border-radius: 4px;
-        background: #FFF;
-        margin-left: 25px;
-        top: 25px;
+    //   .hero-courses .second-section .second-a .top1 .amount{
+    //     width: 110px;
+    //     height: clamp(48px, 2vw, 48px);
+    //     font-size: clamp(1.1rem, 2vw, 1.4rem);
+    //     border: none;
+    //     transition: all 0.3s ease-in-out 0s;
+    //     position: relative;
+    //     padding:  15px 35px; 
+    //     color: var(--text_color_2);
+    //     background: var(--accent_color_1);
+    //     box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.20);
+    //     border-radius: 4px;
+    //     background: #FFF;
+    //     margin-left: 25px;
+    //     top: 25px;
         
-      }
-      .hero-courses .first-section .first-a .top1 .amount h1,
-      .hero-courses .first-section .first-b .top2 .amount h1,
-      .hero-courses .first-section .first-c .top3 .amount h1,
+    //   }
+    //   .hero-courses .first-section .first-a .top1 .amount h1,
+    //   .hero-courses .first-section .first-b .top2 .amount h1,
+    //   .hero-courses .first-section .first-c .top3 .amount h1,
 
-      .hero-courses .second-section .second-a .top1 .amount h1,
-      .hero-courses .second-section .second-b .top1 .amount h1,
-      .hero-courses .second-section .second-c .top1 .amount h1{
-        position: absolute;
-        color: #0F551F;
-        font-family: Aeonik TRIAL;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        bottom: 4px;
-        left: 18px;
+    //   .hero-courses .second-section .second-a .top1 .amount h1,
+    //   .hero-courses .second-section .second-b .top1 .amount h1,
+    //   .hero-courses .second-section .second-c .top1 .amount h1{
+    //     position: absolute;
+    //     color: #0F551F;
+    //     font-family: Aeonik TRIAL;
+    //     font-size: 18px;
+    //     font-style: normal;
+    //     font-weight: 700;
+    //     line-height: normal;
+    //     bottom: 4px;
+    //     left: 18px;
         
-    }
+    // }
 
       
-      .hero-courses .first-section .first-a .bottom1,
-      .hero-courses .first-section .first-b .bottom2,
-      .hero-courses .first-section .first-c .bottom3{
-        padding: 18px;
-      }
-      .hero-courses .first-section .first-a .bottom1 .writeupone,
-      .hero-courses .first-section .first-b .bottom2 .writeupone,
-      .hero-courses .first-section .first-c .bottom3 .writeupone {
-        display: flex;
-        padding-top: 15px;
-      }
-      .hero-courses .first-section .first-a .bottom1 .writeupone h1,
-      .hero-courses .first-section .first-b .bottom2 .writeupone h1,
-      .hero-courses .first-section .first-c .bottom3 .writeupone h1{
-        color: #000;
+    //   .hero-courses .first-section .first-a .bottom1,
+    //   .hero-courses .first-section .first-b .bottom2,
+    //   .hero-courses .first-section .first-c .bottom3{
+    //     padding: 18px;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .writeupone,
+    //   .hero-courses .first-section .first-b .bottom2 .writeupone,
+    //   .hero-courses .first-section .first-c .bottom3 .writeupone {
+    //     display: flex;
+    //     padding-top: 15px;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .writeupone h1,
+    //   .hero-courses .first-section .first-b .bottom2 .writeupone h1,
+    //   .hero-courses .first-section .first-c .bottom3 .writeupone h1{
+    //     color: #000;
 
-        font-family: Aeonik TRIAL;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-      }
-      .hero-courses .first-section .first-a .bottom1 .writeupone .star,
-      .hero-courses .first-section .first-b .bottom2 .writeupone .star,
-      .hero-courses .first-section .first-c .bottom3 .writeupone .star{
-       display: flex;
-       width: 15px;
-       height: 15px; 
-       color: #f6a07e; 
-       margin-top: 15px;
-       margin-left: 60px;
-      }
-      .hero-courses .first-section .first-a .bottom1 .writeupone .star i,
-      .hero-courses .first-section .first-b .bottom2 .writeupone .star i,
-      .hero-courses .first-section .first-c .bottom3 .writeupone .star i{
-        padding-left: 4px;
-      }
-      .hero-courses .first-section .first-a .bottom1 .writeupone .star i.differ,
-      .hero-courses .first-section .first-b .bottom2 .writeupone .star i.differ,
-      .hero-courses .first-section .first-c .bottom3 .writeupone .star i.differ{
-        color: #bebfcd;
-      }
-      .hero-courses .first-section .first-a .bottom1 .writeupone .star .note,
-      .hero-courses .first-section .first-b .bottom2 .writeupone .star .note,
-      .hero-courses .first-section .first-c .bottom3 .writeupone .star .note{
-        margin-left: 6px;
-      }
-      .hero-courses .first-section .first-a .bottom1 h1,
-      .hero-courses .first-section .first-b .bottom2 h1,
-      .hero-courses .first-section .first-c .bottom3 h1{
-        color: var(--Gray1-Travel, #656464);
-        font-family: Open Sans;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 143.687%; 
-      }
-      .hero-courses .first-section .first-a .bottom1 .last,
-      .hero-courses .first-section .first-b .bottom2 .last,
-      .hero-courses .first-section .first-c .bottom3 .last{
-        padding-top: 25px;
-        display: flex;
-      }
-      .hero-courses .first-section .first-a .bottom1 .last .duration,
-      .hero-courses .first-section .first-a .bottom1 .last .lesson,
+    //     font-family: Aeonik TRIAL;
+    //     font-size: 22px;
+    //     font-style: normal;
+    //     font-weight: 800;
+    //     line-height: normal;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .writeupone .star,
+    //   .hero-courses .first-section .first-b .bottom2 .writeupone .star,
+    //   .hero-courses .first-section .first-c .bottom3 .writeupone .star{
+    //    display: flex;
+    //    width: 15px;
+    //    height: 15px; 
+    //    color: #f6a07e; 
+    //    margin-top: 15px;
+    //    margin-left: 60px;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .writeupone .star i,
+    //   .hero-courses .first-section .first-b .bottom2 .writeupone .star i,
+    //   .hero-courses .first-section .first-c .bottom3 .writeupone .star i{
+    //     padding-left: 4px;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .writeupone .star i.differ,
+    //   .hero-courses .first-section .first-b .bottom2 .writeupone .star i.differ,
+    //   .hero-courses .first-section .first-c .bottom3 .writeupone .star i.differ{
+    //     color: #bebfcd;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .writeupone .star .note,
+    //   .hero-courses .first-section .first-b .bottom2 .writeupone .star .note,
+    //   .hero-courses .first-section .first-c .bottom3 .writeupone .star .note{
+    //     margin-left: 6px;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 h1,
+    //   .hero-courses .first-section .first-b .bottom2 h1,
+    //   .hero-courses .first-section .first-c .bottom3 h1{
+    //     color: var(--Gray1-Travel, #656464);
+    //     font-family: Open Sans;
+    //     font-size: 26px;
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     line-height: 143.687%; 
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .last,
+    //   .hero-courses .first-section .first-b .bottom2 .last,
+    //   .hero-courses .first-section .first-c .bottom3 .last{
+    //     padding-top: 25px;
+    //     display: flex;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .last .duration,
+    //   .hero-courses .first-section .first-a .bottom1 .last .lesson,
       
-      .hero-courses .first-section .first-b .bottom2 .last .duration,
-      .hero-courses .first-section .first-b .bottom2 .last .lesson,
+    //   .hero-courses .first-section .first-b .bottom2 .last .duration,
+    //   .hero-courses .first-section .first-b .bottom2 .last .lesson,
       
-      .hero-courses .first-section .first-c .bottom3 .last .duration,
-      .hero-courses .first-section .first-c .bottom3 .last .lesson{
-        display: flex;
-      }
-      .hero-courses .first-section .first-a .bottom1 .last .lesson,
-      .hero-courses .first-section .first-b .bottom2 .last .lesson,
-      .hero-courses .first-section .first-c .bottom3 .last .lesson{
-        margin-left: 20px;
-      }
-      .hero-courses .first-section .first-a .bottom1 .last .duration .font-a, 
-      .hero-courses .first-section .first-a .bottom1 .last .lesson .font-b,
+    //   .hero-courses .first-section .first-c .bottom3 .last .duration,
+    //   .hero-courses .first-section .first-c .bottom3 .last .lesson{
+    //     display: flex;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .last .lesson,
+    //   .hero-courses .first-section .first-b .bottom2 .last .lesson,
+    //   .hero-courses .first-section .first-c .bottom3 .last .lesson{
+    //     margin-left: 20px;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .last .duration .font-a, 
+    //   .hero-courses .first-section .first-a .bottom1 .last .lesson .font-b,
       
-      .hero-courses .first-section .first-b .bottom2 .last .duration .font-a, 
-      .hero-courses .first-section .first-b .bottom2 .last .lesson .font-b,
+    //   .hero-courses .first-section .first-b .bottom2 .last .duration .font-a, 
+    //   .hero-courses .first-section .first-b .bottom2 .last .lesson .font-b,
 
-      .hero-courses .first-section .first-c .bottom3 .last .duration .font-a, 
-      .hero-courses .first-section .first-c .bottom3 .last .lesson .font-b
-      {
-        margin-top: 10px;
-      }
+    //   .hero-courses .first-section .first-c .bottom3 .last .duration .font-a, 
+    //   .hero-courses .first-section .first-c .bottom3 .last .lesson .font-b
+    //   {
+    //     margin-top: 10px;
+    //   }
       
-      .hero-courses .first-section .first-a .bottom1 .last .lesson .fifteen,
-      .hero-courses .first-section .first-a .bottom1 .last .duration .weeks,
+    //   .hero-courses .first-section .first-a .bottom1 .last .lesson .fifteen,
+    //   .hero-courses .first-section .first-a .bottom1 .last .duration .weeks,
 
-      .hero-courses .first-section .first-b .bottom2 .last .lesson .fifteen,
-      .hero-courses .first-section .first-b .bottom2 .last .duration .weeks,
+    //   .hero-courses .first-section .first-b .bottom2 .last .lesson .fifteen,
+    //   .hero-courses .first-section .first-b .bottom2 .last .duration .weeks,
 
-      .hero-courses .first-section .first-c .bottom3 .last .lesson .fifteen,
-      .hero-courses .first-section .first-c .bottom3 .last .duration .weeks
-      {
-        margin-top:1px;
-        color: #7B808B;
-        font-family: Open Sans;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 200%; 
-        margin-left: 7px;
-      }
-      .hero-courses .first-section .first-a .bottom1 .last .btn,
-      .hero-courses .first-section .first-b .bottom2 .last .btn,
-      .hero-courses .first-section .first-c .bottom3 .last .btn
+    //   .hero-courses .first-section .first-c .bottom3 .last .lesson .fifteen,
+    //   .hero-courses .first-section .first-c .bottom3 .last .duration .weeks
+    //   {
+    //     margin-top:1px;
+    //     color: #7B808B;
+    //     font-family: Open Sans;
+    //     font-size: 18px;
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     line-height: 200%; 
+    //     margin-left: 7px;
+    //   }
+    //   .hero-courses .first-section .first-a .bottom1 .last .btn,
+    //   .hero-courses .first-section .first-b .bottom2 .last .btn,
+    //   .hero-courses .first-section .first-c .bottom3 .last .btn
       
-      {
-        margin-left: 40px;
-        width: fit-content;
-        bottom: 8px;
-      }
+    //   {
+    //     margin-left: 40px;
+    //     width: fit-content;
+    //     bottom: 8px;
+    //   }
 
-      .hero-courses .second-section
-      {
-        display: flex;
-        padding-top: 60px;
-        width: 100%;
-        height: 45%;
-      }
-      .hero-courses .second-section .second-a, 
-      .hero-courses .second-section .second-b, 
-      .hero-courses .second-section .second-c
+    //   .hero-courses .second-section
+    //   {
+    //     display: flex;
+    //     padding-top: 60px;
+    //     width: 100%;
+    //     height: 45%;
+    //   }
+    //   .hero-courses .second-section .second-a, 
+    //   .hero-courses .second-section .second-b, 
+    //   .hero-courses .second-section .second-c
 
       
-      {
-        width: 31%;
-        height: 95%;
-        flex-shrink: 0;
-        border-radius: 12px;
-        background: #FFF; 
-      }
-      .hero-courses .second-section .second-a,
-      .hero-courses .second-section .second-b,
-      .hero-courses .second-section .second-c
+    //   {
+    //     width: 31%;
+    //     height: 95%;
+    //     flex-shrink: 0;
+    //     border-radius: 12px;
+    //     background: #FFF; 
+    //   }
+    //   .hero-courses .second-section .second-a,
+    //   .hero-courses .second-section .second-b,
+    //   .hero-courses .second-section .second-c
 
-      {
-        margin-right: 3.5%;
-      } 
-      .hero-courses .second-section .second-a .top1,
-      .hero-courses .second-section .second-b .top1,
-      .hero-courses .second-section .second-c .top1{
-        background-image: url(../img/Rectangle\ 4407.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 48%;
-        background-color: #3b3838;
-        border-radius: 12px;
+    //   {
+    //     margin-right: 3.5%;
+    //   } 
+    //   .hero-courses .second-section .second-a .top1,
+    //   .hero-courses .second-section .second-b .top1,
+    //   .hero-courses .second-section .second-c .top1{
+    //     background-image: url(../img/Rectangle\ 4407.png);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     width: 100%;
+    //     height: 48%;
+    //     background-color: #3b3838;
+    //     border-radius: 12px;
 
-      }
-      .hero-courses .second-section .second-a .bottom1,
-      .hero-courses .second-section .second-b .bottom1,
-      .hero-courses .second-section .second-c .bottom1{
-        padding: 18px;
-      }
-      .hero-courses .second-section .second-a .bottom1 .writeupone,
-      .hero-courses .second-section .second-b .bottom1 .writeupone,
-      .hero-courses .second-section .second-c .bottom1 .writeupone {
-        display: flex;
-        padding-top: 15px;
-      }
-      .hero-courses .second-section .second-a .bottom1 .writeupone h1,
-      .hero-courses .second-section .second-b .bottom1 .writeupone h1,
-      .hero-courses .second-section .second-c .bottom1 .writeupone h1{
-        color: #000;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1,
+    //   .hero-courses .second-section .second-b .bottom1,
+    //   .hero-courses .second-section .second-c .bottom1{
+    //     padding: 18px;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .writeupone,
+    //   .hero-courses .second-section .second-b .bottom1 .writeupone,
+    //   .hero-courses .second-section .second-c .bottom1 .writeupone {
+    //     display: flex;
+    //     padding-top: 15px;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .writeupone h1,
+    //   .hero-courses .second-section .second-b .bottom1 .writeupone h1,
+    //   .hero-courses .second-section .second-c .bottom1 .writeupone h1{
+    //     color: #000;
 
-        font-family: Aeonik TRIAL;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-      }
-      .hero-courses .second-section .second-a .bottom1 .writeupone .star,
-      .hero-courses .second-section .second-b .bottom1 .writeupone .star,
-      .hero-courses .second-section .second-c .bottom1 .writeupone .star{
-       display: flex;
-       width: 15px;
-       height: 15px; 
-       color: #f6a07e; 
-       margin-top: 15px;
-       margin-left: 60px;
-      }
-      .hero-courses .second-section .second-a .bottom1 .writeupone .star i,
-      .hero-courses .second-section .second-b .bottom1 .writeupone .star i,
-      .hero-courses .second-section .second-c .bottom1 .writeupone .star i{
-        padding-left: 4px;
-      }
-      .hero-courses .second-section .second-a .bottom1 .writeupone .star i.differ,
-      .hero-courses .second-section .second-b .bottom1 .writeupone .star i.differ,
-      .hero-courses .second-section .second-c .bottom1 .writeupone .star i.differ{
-        color: #bebfcd;
-      }
-      .hero-courses .second-section .second-a .bottom1 .writeupone .star .note,
-      .hero-courses .second-section .second-b .bottom1 .writeupone .star .note,
-      .hero-courses .second-section .second-c .bottom1 .writeupone .star .note{
-        margin-left: 6px;
-      }
-      .hero-courses .second-section .second-a .bottom1 h1,
-      .hero-courses .second-section .second-b .bottom1 h1,
-      .hero-courses .second-section .second-c .bottom1 h1{
-        color: var(--Gray1-Travel, #656464);
-        font-family: Open Sans;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 143.687%; 
-      }
-      .hero-courses .second-section .second-a .bottom1 .last,
-      .hero-courses .second-section .second-b .bottom1 .last,
-      .hero-courses .second-section .second-c .bottom1 .last{
-        padding-top: 25px;
-        display: flex;
-      }
-      .hero-courses .second-section .second-a .bottom1 .last .duration,
-      .hero-courses .second-section .second-a .bottom1 .last .lesson,
+    //     font-family: Aeonik TRIAL;
+    //     font-size: 22px;
+    //     font-style: normal;
+    //     font-weight: 800;
+    //     line-height: normal;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .writeupone .star,
+    //   .hero-courses .second-section .second-b .bottom1 .writeupone .star,
+    //   .hero-courses .second-section .second-c .bottom1 .writeupone .star{
+    //    display: flex;
+    //    width: 15px;
+    //    height: 15px; 
+    //    color: #f6a07e; 
+    //    margin-top: 15px;
+    //    margin-left: 60px;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .writeupone .star i,
+    //   .hero-courses .second-section .second-b .bottom1 .writeupone .star i,
+    //   .hero-courses .second-section .second-c .bottom1 .writeupone .star i{
+    //     padding-left: 4px;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .writeupone .star i.differ,
+    //   .hero-courses .second-section .second-b .bottom1 .writeupone .star i.differ,
+    //   .hero-courses .second-section .second-c .bottom1 .writeupone .star i.differ{
+    //     color: #bebfcd;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .writeupone .star .note,
+    //   .hero-courses .second-section .second-b .bottom1 .writeupone .star .note,
+    //   .hero-courses .second-section .second-c .bottom1 .writeupone .star .note{
+    //     margin-left: 6px;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 h1,
+    //   .hero-courses .second-section .second-b .bottom1 h1,
+    //   .hero-courses .second-section .second-c .bottom1 h1{
+    //     color: var(--Gray1-Travel, #656464);
+    //     font-family: Open Sans;
+    //     font-size: 26px;
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     line-height: 143.687%; 
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .last,
+    //   .hero-courses .second-section .second-b .bottom1 .last,
+    //   .hero-courses .second-section .second-c .bottom1 .last{
+    //     padding-top: 25px;
+    //     display: flex;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .last .duration,
+    //   .hero-courses .second-section .second-a .bottom1 .last .lesson,
       
-      .hero-courses .second-section .second-b .bottom1 .last .duration,
-      .hero-courses .second-section .second-b .bottom1 .last .lesson,
+    //   .hero-courses .second-section .second-b .bottom1 .last .duration,
+    //   .hero-courses .second-section .second-b .bottom1 .last .lesson,
       
-      .hero-courses .second-section .second-c .bottom1 .last .duration,
-      .hero-courses .second-section .second-c .bottom1 .last .lesson{
-        display: flex;
-      }
-      .hero-courses .second-section .second-a .bottom1 .last .lesson,
-      .hero-courses .second-section .second-b .bottom1 .last .lesson,
-      .hero-courses .second-section .second-c .bottom1 .last .lesson{
-        margin-left: 20px;
-      }
-      .hero-courses .second-section .second-a .bottom1 .last .duration .font-a, 
-      .hero-courses .second-section .second-a .bottom1 .last .lesson .font-b,
+    //   .hero-courses .second-section .second-c .bottom1 .last .duration,
+    //   .hero-courses .second-section .second-c .bottom1 .last .lesson{
+    //     display: flex;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .last .lesson,
+    //   .hero-courses .second-section .second-b .bottom1 .last .lesson,
+    //   .hero-courses .second-section .second-c .bottom1 .last .lesson{
+    //     margin-left: 20px;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .last .duration .font-a, 
+    //   .hero-courses .second-section .second-a .bottom1 .last .lesson .font-b,
       
-      .hero-courses .second-section .second-b .bottom1 .last .duration .font-a, 
-      .hero-courses .second-section .second-b .bottom1 .last .lesson .font-b,
+    //   .hero-courses .second-section .second-b .bottom1 .last .duration .font-a, 
+    //   .hero-courses .second-section .second-b .bottom1 .last .lesson .font-b,
 
-      .hero-courses .second-section .second-c .bottom1 .last .duration .font-a, 
-      .hero-courses .second-section .second-c .bottom1 .last .lesson .font-b
-      {
-        color: #B92E5E;
-        margin-top: 10px;
-      }
+    //   .hero-courses .second-section .second-c .bottom1 .last .duration .font-a, 
+    //   .hero-courses .second-section .second-c .bottom1 .last .lesson .font-b
+    //   {
+    //     color: #B92E5E;
+    //     margin-top: 10px;
+    //   }
       
-      .hero-courses .second-section .second-a .bottom1 .last .lesson .fifteen,
-      .hero-courses .second-section .second-a .bottom1 .last .duration .weeks,
+    //   .hero-courses .second-section .second-a .bottom1 .last .lesson .fifteen,
+    //   .hero-courses .second-section .second-a .bottom1 .last .duration .weeks,
 
-      .hero-courses .second-section .second-b .bottom1 .last .lesson .fifteen,
-      .hero-courses .second-section .second-b .bottom1 .last .duration .weeks,
+    //   .hero-courses .second-section .second-b .bottom1 .last .lesson .fifteen,
+    //   .hero-courses .second-section .second-b .bottom1 .last .duration .weeks,
 
-      .hero-courses .second-section .second-c .bottom1 .last .lesson .fifteen,
-      .hero-courses .second-section .second-c .bottom1 .last .duration .weeks
-      {
-        margin-top:1px;
-        color: #7B808B;
-        font-family: Open Sans;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 200%; 
-        margin-left: 7px;
-      }
-      .hero-courses .second-section .second-a .bottom1 .last .btn,
-      .hero-courses .second-section .second-b .bottom1 .last .btn,
-      .hero-courses .second-section .second-c .bottom1 .last .btn
+    //   .hero-courses .second-section .second-c .bottom1 .last .lesson .fifteen,
+    //   .hero-courses .second-section .second-c .bottom1 .last .duration .weeks
+    //   {
+    //     margin-top:1px;
+    //     color: #7B808B;
+    //     font-family: Open Sans;
+    //     font-size: 18px;
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     line-height: 200%; 
+    //     margin-left: 7px;
+    //   }
+    //   .hero-courses .second-section .second-a .bottom1 .last .btn,
+    //   .hero-courses .second-section .second-b .bottom1 .last .btn,
+    //   .hero-courses .second-section .second-c .bottom1 .last .btn
       
-      {
-        margin-left: 40px;
-        width: fit-content;
-        bottom: 8px;
-      }
-      @media only screen and (max-width: 1502px) {
-        .hero-courses .heading-line{
-            height: 0.2%;
-          }
-          .hero-courses .sub-heading .left h1{
-            font-size: 39px;
-          }
-          .hero-courses .sub-heading .right{
-            margin-left: 59.9%;
-          }
-          .hero-courses .sub-heading .right h1{
-            margin-top: 35px;
-            font-size: 20px;
-          }
-          .hero-courses .sub-heading .right i{
-            font-size: 35px;
-            margin-top: 30px;
-            padding-left: 0px;
-            margin-left: 36px;
-          }
+    //   {
+    //     margin-left: 40px;
+    //     width: fit-content;
+    //     bottom: 8px;
+    //   }
+    //   @media only screen and (max-width: 1502px) {
+    //     .hero-courses .heading-line{
+    //         height: 0.2%;
+    //       }
+    //       .hero-courses .sub-heading .left h1{
+    //         font-size: 39px;
+    //       }
+    //       .hero-courses .sub-heading .right{
+    //         margin-left: 59.9%;
+    //       }
+    //       .hero-courses .sub-heading .right h1{
+    //         margin-top: 35px;
+    //         font-size: 20px;
+    //       }
+    //       .hero-courses .sub-heading .right i{
+    //         font-size: 35px;
+    //         margin-top: 30px;
+    //         padding-left: 0px;
+    //         margin-left: 36px;
+    //       }
 
-          .hero-courses .first-section .first-a .bottom1 .writeupone .star,
-          .hero-courses .first-section .first-b .bottom2 .writeupone .star,
-          .hero-courses .first-section .first-c .bottom3 .writeupone .star{
-            margin-left: 50px;
-         }
-         .hero-courses .first-section .first-a .bottom1 .last,
-         .hero-courses .first-section .first-b .bottom2 .last,
-         .hero-courses .first-section .first-c .bottom3 .last{
-            padding-top: 25px;
-            display: flex;
-         }
-          .hero-courses .first-section .first-a .bottom1 .last .lesson,
-          .hero-courses .first-section .first-b .bottom2 .last .lesson,
-          .hero-courses .first-section .first-c .bottom3 .last .lesson{
-            margin-left: 0px;
-         }
-          .hero-courses .first-section .first-a .bottom1 .last .lesson,
-          .hero-courses .first-section .first-b .bottom2 .last .lesson,
-          .hero-courses .first-section .first-c .bottom3 .last .lesson{
-            margin-left: 11px;
-         }
-
-
+    //       .hero-courses .first-section .first-a .bottom1 .writeupone .star,
+    //       .hero-courses .first-section .first-b .bottom2 .writeupone .star,
+    //       .hero-courses .first-section .first-c .bottom3 .writeupone .star{
+    //         margin-left: 50px;
+    //      }
+    //      .hero-courses .first-section .first-a .bottom1 .last,
+    //      .hero-courses .first-section .first-b .bottom2 .last,
+    //      .hero-courses .first-section .first-c .bottom3 .last{
+    //         padding-top: 25px;
+    //         display: flex;
+    //      }
+    //       .hero-courses .first-section .first-a .bottom1 .last .lesson,
+    //       .hero-courses .first-section .first-b .bottom2 .last .lesson,
+    //       .hero-courses .first-section .first-c .bottom3 .last .lesson{
+    //         margin-left: 0px;
+    //      }
+    //       .hero-courses .first-section .first-a .bottom1 .last .lesson,
+    //       .hero-courses .first-section .first-b .bottom2 .last .lesson,
+    //       .hero-courses .first-section .first-c .bottom3 .last .lesson{
+    //         margin-left: 11px;
+    //      }
 
 
-         .hero-courses .second-section .second-a .bottom1 .writeupone .star,
-          .hero-courses .second-section .second-b .bottom1 .writeupone .star,
-          .hero-courses .second-section .second-c .bottom1 .writeupone .star{
-            margin-left: 50px;
-         }
-         .hero-courses .second-section .second-a .bottom1 .last,
-         .hero-courses .second-section .second-b .bottom1 .last,
-         .hero-courses .second-section .second-c .bottom1 .last{
-            padding-top: 25px;
-            display: flex;
-         }
-          .hero-courses .second-section .second-a .bottom1 .last .lesson,
-          .hero-courses .second-section .second-b .bottom1 .last .lesson,
-          .hero-courses .second-section .second-c .bottom1 .last .lesson{
-            margin-left: 0px;
-         }
-          .hero-courses .second-section .second-a .bottom1 .last .lesson,
-          .hero-courses .second-section .second-b .bottom1 .last .lesson,
-          .hero-courses .second-section .second-c .bottom1 .last .lesson{
-            margin-left: 11px;
-         }
 
 
-      }
+    //      .hero-courses .second-section .second-a .bottom1 .writeupone .star,
+    //       .hero-courses .second-section .second-b .bottom1 .writeupone .star,
+    //       .hero-courses .second-section .second-c .bottom1 .writeupone .star{
+    //         margin-left: 50px;
+    //      }
+    //      .hero-courses .second-section .second-a .bottom1 .last,
+    //      .hero-courses .second-section .second-b .bottom1 .last,
+    //      .hero-courses .second-section .second-c .bottom1 .last{
+    //         padding-top: 25px;
+    //         display: flex;
+    //      }
+    //       .hero-courses .second-section .second-a .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-b .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-c .bottom1 .last .lesson{
+    //         margin-left: 0px;
+    //      }
+    //       .hero-courses .second-section .second-a .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-b .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-c .bottom1 .last .lesson{
+    //         margin-left: 11px;
+    //      }
 
-      @media only screen and (max-width: 992px) {
-        .hero-courses .heading-line{
-            height: 0.2%;
+
+    //   }
+
+    //   @media only screen and (max-width: 992px) {
+    //     .hero-courses .heading-line{
+    //         height: 0.2%;
             
-          }
+    //       }
           
-          .hero-courses .sub-heading .right{
-            margin-left: 46%;
-          }
-          .hero-courses .sub-heading .right h1{
-            margin-top: 29px;
-            font-size: 18px;
-          }
-          .hero-courses .sub-heading .right i{
-            font-size: 22px;
-            margin-top: 26px;
-            margin-left: 10px;
-          }
+    //       .hero-courses .sub-heading .right{
+    //         margin-left: 46%;
+    //       }
+    //       .hero-courses .sub-heading .right h1{
+    //         margin-top: 29px;
+    //         font-size: 18px;
+    //       }
+    //       .hero-courses .sub-heading .right i{
+    //         font-size: 22px;
+    //         margin-top: 26px;
+    //         margin-left: 10px;
+    //       }
 
-          .hero-courses .first-section
-          {
-            display: block;
-            padding-top: 60px;
-            width: 100%;
-            height: 47%;
-          }
+    //       .hero-courses .first-section
+    //       {
+    //         display: block;
+    //         padding-top: 60px;
+    //         width: 100%;
+    //         height: 47%;
+    //       }
       
-      .hero-courses .first-section .first-a
+    //   .hero-courses .first-section .first-a
      
-      {
-        width:48%;
-        height: 95%;
-        flex-shrink: 0;
-        border-radius: 12px;
-        background: #FFF;  
-        margin-top: 0%;
-      }
+    //   {
+    //     width:48%;
+    //     height: 95%;
+    //     flex-shrink: 0;
+    //     border-radius: 12px;
+    //     background: #FFF;  
+    //     margin-top: 0%;
+    //   }
 
-      .hero-courses .first-section .first-b{
-        margin-left: 53%;
-        width:48%;
-        height: 95%;
-        flex-shrink: 0;
-        border-radius: 12px;
-        background: fff;  
-        bottom: 95%;
-        position: relative;
+    //   .hero-courses .first-section .first-b{
+    //     margin-left: 53%;
+    //     width:48%;
+    //     height: 95%;
+    //     flex-shrink: 0;
+    //     border-radius: 12px;
+    //     background: fff;  
+    //     bottom: 95%;
+    //     position: relative;
 
-      }
-      .hero-courses .first-section .first-c
+    //   }
+    //   .hero-courses .first-section .first-c
      
-      {
-        width:48%;
-        height: 95%;
-        flex-shrink: 0;
-        border-radius: 12px;
-        background: #FFF;  
-        bottom: 90%;
-        position: relative;
-      }
+    //   {
+    //     width:48%;
+    //     height: 95%;
+    //     flex-shrink: 0;
+    //     border-radius: 12px;
+    //     background: #FFF;  
+    //     bottom: 90%;
+    //     position: relative;
+    //   }
 
-
-
-     
-
-      .hero-courses .second-section
-      {
-        display: block;
-        padding-top: 60px;
-        width: 100%;
-        height: 47%;
-      }
-      .hero-courses .second-section .second-a
-
-      
-      {
-        width:48%;
-        height: 95%;
-        flex-shrink: 0;
-        border-radius: 12px;
-        background: #FFF;  
-        bottom: 9%;
-        margin-left: 53%;
-        position: relative;
-      }
-      
-      .hero-courses .second-section .second-b{
-        margin-top: 30px;
-        width:48%;
-        height: 95%;
-        flex-shrink: 0;
-        border-radius: 12px;
-        background: #FFF;  
-        bottom: 9%;
-        position: relative;
-      }
-
-      .hero-courses .second-section .second-c{
-        margin-top: 30px;
-        width:48%;
-        height: 95%;
-        flex-shrink: 0;
-        border-radius: 12px;
-        background: #FFF;  
-        bottom: 108.5%;
-        position: relative;
-        margin-left: 53%;
-      }
 
 
      
-      
-      }
 
-      @media only screen and (max-width: 767px) {
-        .hero-courses{
-            width: 97%;
-            height: 260vh;
-            margin-top: 20%;
-            margin-left: 3.7%;
-          }
-          .hero-courses .heading-line{
-            width: 7%;
-            height: 0.1%;
-            margin-bottom: 20px;
-          }
+    //   .hero-courses .second-section
+    //   {
+    //     display: block;
+    //     padding-top: 60px;
+    //     width: 100%;
+    //     height: 47%;
+    //   }
+    //   .hero-courses .second-section .second-a
+
+      
+    //   {
+    //     width:48%;
+    //     height: 95%;
+    //     flex-shrink: 0;
+    //     border-radius: 12px;
+    //     background: #FFF;  
+    //     bottom: 9%;
+    //     margin-left: 53%;
+    //     position: relative;
+    //   }
+      
+    //   .hero-courses .second-section .second-b{
+    //     margin-top: 30px;
+    //     width:48%;
+    //     height: 95%;
+    //     flex-shrink: 0;
+    //     border-radius: 12px;
+    //     background: #FFF;  
+    //     bottom: 9%;
+    //     position: relative;
+    //   }
+
+    //   .hero-courses .second-section .second-c{
+    //     margin-top: 30px;
+    //     width:48%;
+    //     height: 95%;
+    //     flex-shrink: 0;
+    //     border-radius: 12px;
+    //     background: #FFF;  
+    //     bottom: 108.5%;
+    //     position: relative;
+    //     margin-left: 53%;
+    //   }
+
+
+     
+      
+    //   }
+
+    //   @media only screen and (max-width: 767px) {
+    //     .hero-courses{
+    //         width: 97%;
+    //         height: 260vh;
+    //         margin-top: 20%;
+    //         margin-left: 3.7%;
+    //       }
+    //       .hero-courses .heading-line{
+    //         width: 7%;
+    //         height: 0.1%;
+    //         margin-bottom: 20px;
+    //       }
           
-          .hero-courses .sub-heading .right{
-            margin-left: 39.7%;
-          }
-          .hero-courses .sub-heading .right h1{
-            margin-top: 20px;
-            font-family: Open Sans;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-          }
-          .hero-courses .sub-heading .right i{
-            font-size: 20px;
-            margin-top: 17px;
-            padding-left: 5px;
-          }
+    //       .hero-courses .sub-heading .right{
+    //         margin-left: 39.7%;
+    //       }
+    //       .hero-courses .sub-heading .right h1{
+    //         margin-top: 20px;
+    //         font-family: Open Sans;
+    //         font-size: 14px;
+    //         font-style: normal;
+    //         font-weight: 400;
+    //         line-height: normal;
+    //       }
+    //       .hero-courses .sub-heading .right i{
+    //         font-size: 20px;
+    //         margin-top: 17px;
+    //         padding-left: 5px;
+    //       }
              
-          .hero-courses .first-section
-          {
-            display: inline-block;
-            height: 110%;
-          }
+    //       .hero-courses .first-section
+    //       {
+    //         display: inline-block;
+    //         height: 110%;
+    //       }
           
-          .hero-courses .first-section .first-a
+    //       .hero-courses .first-section .first-a
              
-          {
-            width: 66%;
-            height: 32%;
-            margin-left: 20%; 
-            margin-top: 0%; 
-          }
+    //       {
+    //         width: 66%;
+    //         height: 32%;
+    //         margin-left: 20%; 
+    //         margin-top: 0%; 
+    //       }
           
-          .hero-courses .first-section .first-b{
-            width: 66%;
-            height: 32%;
-            margin-left: 20%; 
-            margin-top: 252%; 
-            display: block;
-          }
+    //       .hero-courses .first-section .first-b{
+    //         width: 66%;
+    //         height: 32%;
+    //         margin-left: 20%; 
+    //         margin-top: 252%; 
+    //         display: block;
+    //       }
           
           
-          .hero-courses .first-section .first-c{
-            width: 66%;
-            height: 32%;
-            margin-left: 20%; 
-            margin-top: -10%; 
-            display: block; 
-          }
+    //       .hero-courses .first-section .first-c{
+    //         width: 66%;
+    //         height: 32%;
+    //         margin-left: 20%; 
+    //         margin-top: -10%; 
+    //         display: block; 
+    //       }
 
 
           
-          .hero-courses .first-section .first-a .bottom1 .writeupone .star,
-          .hero-courses .first-section .first-b .bottom2 .writeupone .star,
-          .hero-courses .first-section .first-c .bottom3 .writeupone .star{
+    //       .hero-courses .first-section .first-a .bottom1 .writeupone .star,
+    //       .hero-courses .first-section .first-b .bottom2 .writeupone .star,
+    //       .hero-courses .first-section .first-c .bottom3 .writeupone .star{
            
-           margin-left: 100px;
-          }
+    //        margin-left: 100px;
+    //       }
 
         
         
-          .hero-courses .first-section .first-a .bottom1 .last .lesson,
-          .hero-courses .first-section .first-b .bottom2 .last .lesson,
-          .hero-courses .first-section .first-c .bottom3 .last .lesson{
-            margin-left: 60px;
-          }
+    //       .hero-courses .first-section .first-a .bottom1 .last .lesson,
+    //       .hero-courses .first-section .first-b .bottom2 .last .lesson,
+    //       .hero-courses .first-section .first-c .bottom3 .last .lesson{
+    //         margin-left: 60px;
+    //       }
          
     
-          .hero-courses .second-section
-          {
-            position: relative;
-            bottom: 92%;
-            display: inline-block;
-            height: 110%;
-          }
-          .hero-courses .second-section .second-a
+    //       .hero-courses .second-section
+    //       {
+    //         position: relative;
+    //         bottom: 92%;
+    //         display: inline-block;
+    //         height: 110%;
+    //       }
+    //       .hero-courses .second-section .second-a
              
-          {
-            width: 66%;
-            height: 32%;
-            margin-left: 20%; 
-            margin-top: 16%; 
-            display: block;
-          }
+    //       {
+    //         width: 66%;
+    //         height: 32%;
+    //         margin-left: 20%; 
+    //         margin-top: 16%; 
+    //         display: block;
+    //       }
           
-          .hero-courses .second-section .second-b{
-            width: 66%;
-            height: 32%;
-            margin-left: 20%; 
-            margin-top: 3%; 
-            display: block;
-          }
+    //       .hero-courses .second-section .second-b{
+    //         width: 66%;
+    //         height: 32%;
+    //         margin-left: 20%; 
+    //         margin-top: 3%; 
+    //         display: block;
+    //       }
           
           
-          .hero-courses .second-section .second-c{
-            width: 66%;
-            height: 32%;
-            margin-left: 20%; 
-            margin-top: 263%; 
-            display: block; 
-          }
+    //       .hero-courses .second-section .second-c{
+    //         width: 66%;
+    //         height: 32%;
+    //         margin-left: 20%; 
+    //         margin-top: 263%; 
+    //         display: block; 
+    //       }
 
 
           
-          .hero-courses .second-section .second-a .bottom1 .writeupone .star,
-          .hero-courses .second-section .second-b .bottom1 .writeupone .star,
-          .hero-courses .second-section .second-c .bottom1 .writeupone .star{
+    //       .hero-courses .second-section .second-a .bottom1 .writeupone .star,
+    //       .hero-courses .second-section .second-b .bottom1 .writeupone .star,
+    //       .hero-courses .second-section .second-c .bottom1 .writeupone .star{
            
-           margin-left: 100px;
-          }
+    //        margin-left: 100px;
+    //       }
 
         
         
-          .hero-courses .second-section .second-a .bottom1 .last .lesson,
-          .hero-courses .second-section .second-b .bottom1 .last .lesson,
-          .hero-courses .second-section .second-c .bottom1 .last .lesson{
-            margin-left: 60px;
-          }
+    //       .hero-courses .second-section .second-a .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-b .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-c .bottom1 .last .lesson{
+    //         margin-left: 60px;
+    //       }
          
     
 
         
-      }
-      @media only screen and (max-width: 300px) {
-        .hero-courses{
-            width: 95%;
-            height: auto;
-            margin-top: 40%;
-            margin-left: 2.5%;
-          }
-          .hero-courses .heading-line{
-            width: 4%;
-            height: 111.5%;
-            background-color: #135722;
-            margin-bottom: 20px;
-          }
+    //   }
+    //   @media only screen and (max-width: 300px) {
+    //     .hero-courses{
+    //         width: 95%;
+    //         height: auto;
+    //         margin-top: 40%;
+    //         margin-left: 2.5%;
+    //       }
+    //       .hero-courses .heading-line{
+    //         width: 4%;
+    //         height: 111.5%;
+    //         background-color: #135722;
+    //         margin-bottom: 20px;
+    //       }
        
-          .hero-courses .sub-heading .left h1{
+    //       .hero-courses .sub-heading .left h1{
             
-            font-size: 20px;
+    //         font-size: 20px;
                 
-          }
-          .hero-courses .sub-heading .right{
-            display: flex;
-            margin-left: 1.7%;
-          }
-          .hero-courses .sub-heading .right h1{
-            margin-top: 20px;
-            font-family: Open Sans;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-          }
-          .hero-courses .sub-heading .right i{
-            font-size: 20px;
-            margin-top: 17px;
-            padding-left: 5px;
-          }
+    //       }
+    //       .hero-courses .sub-heading .right{
+    //         display: flex;
+    //         margin-left: 1.7%;
+    //       }
+    //       .hero-courses .sub-heading .right h1{
+    //         margin-top: 20px;
+    //         font-family: Open Sans;
+    //         font-size: 14px;
+    //         font-style: normal;
+    //         font-weight: 400;
+    //         line-height: normal;
+    //       }
+    //       .hero-courses .sub-heading .right i{
+    //         font-size: 20px;
+    //         margin-top: 17px;
+    //         padding-left: 5px;
+    //       }
              
-          .hero-courses .first-section
-          {
-            display: flex;
-            padding-top: 60px;
-            width: 100%;
-            height: 45%;
-          }
+    //       .hero-courses .first-section
+    //       {
+    //         display: flex;
+    //         padding-top: 60px;
+    //         width: 100%;
+    //         height: 45%;
+    //       }
           
-          .hero-courses .first-section .first-a, 
-          .hero-courses .first-section .first-b, 
-          .hero-courses .first-section .first-c
+    //       .hero-courses .first-section .first-a, 
+    //       .hero-courses .first-section .first-b, 
+    //       .hero-courses .first-section .first-c
     
           
-          {
-            width: 31%;
-            height: 95%;
-            flex-shrink: 0;
-            border-radius: 12px;
-            background: #FFF;   
-          }
-          .hero-courses .first-section .first-a,
-          .hero-courses .first-section .first-b
+    //       {
+    //         width: 31%;
+    //         height: 95%;
+    //         flex-shrink: 0;
+    //         border-radius: 12px;
+    //         background: #FFF;   
+    //       }
+    //       .hero-courses .first-section .first-a,
+    //       .hero-courses .first-section .first-b
     
-          {
-            margin-right: 3.5%;
-          } 
-          .hero-courses .first-section .first-a .top1,
-          .hero-courses .first-section .first-b .top2,
-          .hero-courses .first-section .first-c .top3{
-            background-image: url(../img/Rectangle\ 4407.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: 48%;
-            background-color: #423e3e;
-            border-radius: 12px;
-            position: relative;
-          }
+    //       {
+    //         margin-right: 3.5%;
+    //       } 
+    //       .hero-courses .first-section .first-a .top1,
+    //       .hero-courses .first-section .first-b .top2,
+    //       .hero-courses .first-section .first-c .top3{
+    //         background-image: url(../img/Rectangle\ 4407.png);
+    //         background-repeat: no-repeat;
+    //         background-size: cover;
+    //         width: 100%;
+    //         height: 48%;
+    //         background-color: #423e3e;
+    //         border-radius: 12px;
+    //         position: relative;
+    //       }
     
-          .hero-courses .first-section .first-a .top1 .amount,
-          .hero-courses .first-section .first-b .top2 .amount,
-          .hero-courses .first-section .first-c .top3 .amount,
+    //       .hero-courses .first-section .first-a .top1 .amount,
+    //       .hero-courses .first-section .first-b .top2 .amount,
+    //       .hero-courses .first-section .first-c .top3 .amount,
     
-          .hero-courses .second-section .second-a .top1 .amount,
-          .hero-courses .second-section .second-b .top1 .amount,
-          .hero-courses .second-section .second-c .top1 .amount,
+    //       .hero-courses .second-section .second-a .top1 .amount,
+    //       .hero-courses .second-section .second-b .top1 .amount,
+    //       .hero-courses .second-section .second-c .top1 .amount,
     
-          .hero-courses .second-section .second-a .top1 .amount{
-            width: 110px;
-            height: clamp(48px, 2vw, 48px);
-            font-size: clamp(1.1rem, 2vw, 1.4rem);
-            border: none;
-            transition: all 0.3s ease-in-out 0s;
-            position: relative;
-            padding:  15px 35px; 
-            color: var(--text_color_2);
-            background: var(--accent_color_1);
-            box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.20);
-            border-radius: 4px;
-            background: #FFF;
-            margin-left: 25px;
-            top: 25px;
+    //       .hero-courses .second-section .second-a .top1 .amount{
+    //         width: 110px;
+    //         height: clamp(48px, 2vw, 48px);
+    //         font-size: clamp(1.1rem, 2vw, 1.4rem);
+    //         border: none;
+    //         transition: all 0.3s ease-in-out 0s;
+    //         position: relative;
+    //         padding:  15px 35px; 
+    //         color: var(--text_color_2);
+    //         background: var(--accent_color_1);
+    //         box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.20);
+    //         border-radius: 4px;
+    //         background: #FFF;
+    //         margin-left: 25px;
+    //         top: 25px;
             
-          }
-          .hero-courses .first-section .first-a .top1 .amount h1,
-          .hero-courses .first-section .first-b .top2 .amount h1,
-          .hero-courses .first-section .first-c .top3 .amount h1,
+    //       }
+    //       .hero-courses .first-section .first-a .top1 .amount h1,
+    //       .hero-courses .first-section .first-b .top2 .amount h1,
+    //       .hero-courses .first-section .first-c .top3 .amount h1,
     
-          .hero-courses .second-section .second-a .top1 .amount h1,
-          .hero-courses .second-section .second-b .top1 .amount h1,
-          .hero-courses .second-section .second-c .top1 .amount h1{
-            position: absolute;
-            color: #0F551F;
-            font-family: Aeonik TRIAL;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            bottom: 4px;
-            left: 18px;
+    //       .hero-courses .second-section .second-a .top1 .amount h1,
+    //       .hero-courses .second-section .second-b .top1 .amount h1,
+    //       .hero-courses .second-section .second-c .top1 .amount h1{
+    //         position: absolute;
+    //         color: #0F551F;
+    //         font-family: Aeonik TRIAL;
+    //         font-size: 18px;
+    //         font-style: normal;
+    //         font-weight: 700;
+    //         line-height: normal;
+    //         bottom: 4px;
+    //         left: 18px;
             
-        }
+    //     }
     
           
-          .hero-courses .first-section .first-a .bottom1,
-          .hero-courses .first-section .first-b .bottom2,
-          .hero-courses .first-section .first-c .bottom3{
-            padding: 18px;
-          }
-          .hero-courses .first-section .first-a .bottom1 .writeupone,
-          .hero-courses .first-section .first-b .bottom2 .writeupone,
-          .hero-courses .first-section .first-c .bottom3 .writeupone {
-            display: flex;
-            padding-top: 15px;
-          }
-          .hero-courses .first-section .first-a .bottom1 .writeupone h1,
-          .hero-courses .first-section .first-b .bottom2 .writeupone h1,
-          .hero-courses .first-section .first-c .bottom3 .writeupone h1{
-            color: #000;
+    //       .hero-courses .first-section .first-a .bottom1,
+    //       .hero-courses .first-section .first-b .bottom2,
+    //       .hero-courses .first-section .first-c .bottom3{
+    //         padding: 18px;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .writeupone,
+    //       .hero-courses .first-section .first-b .bottom2 .writeupone,
+    //       .hero-courses .first-section .first-c .bottom3 .writeupone {
+    //         display: flex;
+    //         padding-top: 15px;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .writeupone h1,
+    //       .hero-courses .first-section .first-b .bottom2 .writeupone h1,
+    //       .hero-courses .first-section .first-c .bottom3 .writeupone h1{
+    //         color: #000;
     
-            font-family: Aeonik TRIAL;
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: normal;
-          }
-          .hero-courses .first-section .first-a .bottom1 .writeupone .star,
-          .hero-courses .first-section .first-b .bottom2 .writeupone .star,
-          .hero-courses .first-section .first-c .bottom3 .writeupone .star{
-           display: flex;
-           width: 15px;
-           height: 15px; 
-           color: #f6a07e; 
-           margin-top: 15px;
-           margin-left: 60px;
-          }
-          .hero-courses .first-section .first-a .bottom1 .writeupone .star i,
-          .hero-courses .first-section .first-b .bottom2 .writeupone .star i,
-          .hero-courses .first-section .first-c .bottom3 .writeupone .star i{
-            padding-left: 4px;
-          }
-          .hero-courses .first-section .first-a .bottom1 .writeupone .star i.differ,
-          .hero-courses .first-section .first-b .bottom2 .writeupone .star i.differ,
-          .hero-courses .first-section .first-c .bottom3 .writeupone .star i.differ{
-            color: #bebfcd;
-          }
-          .hero-courses .first-section .first-a .bottom1 .writeupone .star .note,
-          .hero-courses .first-section .first-b .bottom2 .writeupone .star .note,
-          .hero-courses .first-section .first-c .bottom3 .writeupone .star .note{
-            margin-left: 6px;
-          }
-          .hero-courses .first-section .first-a .bottom1 h1,
-          .hero-courses .first-section .first-b .bottom2 h1,
-          .hero-courses .first-section .first-c .bottom3 h1{
-            color: var(--Gray1-Travel, #656464);
-            font-family: Open Sans;
-            font-size: 26px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 143.687%; 
-          }
-          .hero-courses .first-section .first-a .bottom1 .last,
-          .hero-courses .first-section .first-b .bottom2 .last,
-          .hero-courses .first-section .first-c .bottom3 .last{
-            padding-top: 25px;
-            display: flex;
-          }
-          .hero-courses .first-section .first-a .bottom1 .last .duration,
-          .hero-courses .first-section .first-a .bottom1 .last .lesson,
+    //         font-family: Aeonik TRIAL;
+    //         font-size: 22px;
+    //         font-style: normal;
+    //         font-weight: 800;
+    //         line-height: normal;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .writeupone .star,
+    //       .hero-courses .first-section .first-b .bottom2 .writeupone .star,
+    //       .hero-courses .first-section .first-c .bottom3 .writeupone .star{
+    //        display: flex;
+    //        width: 15px;
+    //        height: 15px; 
+    //        color: #f6a07e; 
+    //        margin-top: 15px;
+    //        margin-left: 60px;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .writeupone .star i,
+    //       .hero-courses .first-section .first-b .bottom2 .writeupone .star i,
+    //       .hero-courses .first-section .first-c .bottom3 .writeupone .star i{
+    //         padding-left: 4px;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .writeupone .star i.differ,
+    //       .hero-courses .first-section .first-b .bottom2 .writeupone .star i.differ,
+    //       .hero-courses .first-section .first-c .bottom3 .writeupone .star i.differ{
+    //         color: #bebfcd;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .writeupone .star .note,
+    //       .hero-courses .first-section .first-b .bottom2 .writeupone .star .note,
+    //       .hero-courses .first-section .first-c .bottom3 .writeupone .star .note{
+    //         margin-left: 6px;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 h1,
+    //       .hero-courses .first-section .first-b .bottom2 h1,
+    //       .hero-courses .first-section .first-c .bottom3 h1{
+    //         color: var(--Gray1-Travel, #656464);
+    //         font-family: Open Sans;
+    //         font-size: 26px;
+    //         font-style: normal;
+    //         font-weight: 400;
+    //         line-height: 143.687%; 
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .last,
+    //       .hero-courses .first-section .first-b .bottom2 .last,
+    //       .hero-courses .first-section .first-c .bottom3 .last{
+    //         padding-top: 25px;
+    //         display: flex;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .last .duration,
+    //       .hero-courses .first-section .first-a .bottom1 .last .lesson,
           
-          .hero-courses .first-section .first-b .bottom2 .last .duration,
-          .hero-courses .first-section .first-b .bottom2 .last .lesson,
+    //       .hero-courses .first-section .first-b .bottom2 .last .duration,
+    //       .hero-courses .first-section .first-b .bottom2 .last .lesson,
           
-          .hero-courses .first-section .first-c .bottom3 .last .duration,
-          .hero-courses .first-section .first-c .bottom3 .last .lesson{
-            display: flex;
-          }
-          .hero-courses .first-section .first-a .bottom1 .last .lesson,
-          .hero-courses .first-section .first-b .bottom2 .last .lesson,
-          .hero-courses .first-section .first-c .bottom3 .last .lesson{
-            margin-left: 20px;
-          }
-          .hero-courses .first-section .first-a .bottom1 .last .duration .font-a, 
-          .hero-courses .first-section .first-a .bottom1 .last .lesson .font-b,
+    //       .hero-courses .first-section .first-c .bottom3 .last .duration,
+    //       .hero-courses .first-section .first-c .bottom3 .last .lesson{
+    //         display: flex;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .last .lesson,
+    //       .hero-courses .first-section .first-b .bottom2 .last .lesson,
+    //       .hero-courses .first-section .first-c .bottom3 .last .lesson{
+    //         margin-left: 20px;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .last .duration .font-a, 
+    //       .hero-courses .first-section .first-a .bottom1 .last .lesson .font-b,
           
-          .hero-courses .first-section .first-b .bottom2 .last .duration .font-a, 
-          .hero-courses .first-section .first-b .bottom2 .last .lesson .font-b,
+    //       .hero-courses .first-section .first-b .bottom2 .last .duration .font-a, 
+    //       .hero-courses .first-section .first-b .bottom2 .last .lesson .font-b,
     
-          .hero-courses .first-section .first-c .bottom3 .last .duration .font-a, 
-          .hero-courses .first-section .first-c .bottom3 .last .lesson .font-b
-          {
-            margin-top: 10px;
-          }
+    //       .hero-courses .first-section .first-c .bottom3 .last .duration .font-a, 
+    //       .hero-courses .first-section .first-c .bottom3 .last .lesson .font-b
+    //       {
+    //         margin-top: 10px;
+    //       }
           
-          .hero-courses .first-section .first-a .bottom1 .last .lesson .fifteen,
-          .hero-courses .first-section .first-a .bottom1 .last .duration .weeks,
+    //       .hero-courses .first-section .first-a .bottom1 .last .lesson .fifteen,
+    //       .hero-courses .first-section .first-a .bottom1 .last .duration .weeks,
     
-          .hero-courses .first-section .first-b .bottom2 .last .lesson .fifteen,
-          .hero-courses .first-section .first-b .bottom2 .last .duration .weeks,
+    //       .hero-courses .first-section .first-b .bottom2 .last .lesson .fifteen,
+    //       .hero-courses .first-section .first-b .bottom2 .last .duration .weeks,
     
-          .hero-courses .first-section .first-c .bottom3 .last .lesson .fifteen,
-          .hero-courses .first-section .first-c .bottom3 .last .duration .weeks
-          {
-            margin-top:1px;
-            color: #7B808B;
-            font-family: Open Sans;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 200%; 
-            margin-left: 7px;
-          }
-          .hero-courses .first-section .first-a .bottom1 .last .btn,
-          .hero-courses .first-section .first-b .bottom2 .last .btn,
-          .hero-courses .first-section .first-c .bottom3 .last .btn
+    //       .hero-courses .first-section .first-c .bottom3 .last .lesson .fifteen,
+    //       .hero-courses .first-section .first-c .bottom3 .last .duration .weeks
+    //       {
+    //         margin-top:1px;
+    //         color: #7B808B;
+    //         font-family: Open Sans;
+    //         font-size: 18px;
+    //         font-style: normal;
+    //         font-weight: 400;
+    //         line-height: 200%; 
+    //         margin-left: 7px;
+    //       }
+    //       .hero-courses .first-section .first-a .bottom1 .last .btn,
+    //       .hero-courses .first-section .first-b .bottom2 .last .btn,
+    //       .hero-courses .first-section .first-c .bottom3 .last .btn
           
-          {
-            margin-left: 40px;
-            width: fit-content;
-            bottom: 8px;
-          }
+    //       {
+    //         margin-left: 40px;
+    //         width: fit-content;
+    //         bottom: 8px;
+    //       }
     
-          .hero-courses .second-section
-          {
-            display: flex;
-            padding-top: 60px;
-            width: 100%;
-            height: 45%;
-          }
-          .hero-courses .second-section .second-a, 
-          .hero-courses .second-section .second-b, 
-          .hero-courses .second-section .second-c
+    //       .hero-courses .second-section
+    //       {
+    //         display: flex;
+    //         padding-top: 60px;
+    //         width: 100%;
+    //         height: 45%;
+    //       }
+    //       .hero-courses .second-section .second-a, 
+    //       .hero-courses .second-section .second-b, 
+    //       .hero-courses .second-section .second-c
     
           
-          {
-            width: 31%;
-            height: 95%;
-            flex-shrink: 0;
-            border-radius: 12px;
-            background: #FFF; 
-          }
-          .hero-courses .second-section .second-a,
-          .hero-courses .second-section .second-b,
-          .hero-courses .second-section .second-c
+    //       {
+    //         width: 31%;
+    //         height: 95%;
+    //         flex-shrink: 0;
+    //         border-radius: 12px;
+    //         background: #FFF; 
+    //       }
+    //       .hero-courses .second-section .second-a,
+    //       .hero-courses .second-section .second-b,
+    //       .hero-courses .second-section .second-c
     
-          {
-            margin-right: 3.5%;
-          } 
-          .hero-courses .second-section .second-a .top1,
-          .hero-courses .second-section .second-b .top1,
-          .hero-courses .second-section .second-c .top1{
-            background-image: url(../img/Rectangle\ 4407.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: 48%;
-            background-color: #3b3838;
-            border-radius: 12px;
+    //       {
+    //         margin-right: 3.5%;
+    //       } 
+    //       .hero-courses .second-section .second-a .top1,
+    //       .hero-courses .second-section .second-b .top1,
+    //       .hero-courses .second-section .second-c .top1{
+    //         background-image: url(../img/Rectangle\ 4407.png);
+    //         background-repeat: no-repeat;
+    //         background-size: cover;
+    //         width: 100%;
+    //         height: 48%;
+    //         background-color: #3b3838;
+    //         border-radius: 12px;
     
-          }
-          .hero-courses .second-section .second-a .bottom1,
-          .hero-courses .second-section .second-b .bottom1,
-          .hero-courses .second-section .second-c .bottom1{
-            padding: 18px;
-          }
-          .hero-courses .second-section .second-a .bottom1 .writeupone,
-          .hero-courses .second-section .second-b .bottom1 .writeupone,
-          .hero-courses .second-section .second-c .bottom1 .writeupone {
-            display: flex;
-            padding-top: 15px;
-          }
-          .hero-courses .second-section .second-a .bottom1 .writeupone h1,
-          .hero-courses .second-section .second-b .bottom1 .writeupone h1,
-          .hero-courses .second-section .second-c .bottom1 .writeupone h1{
-            color: #000;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1,
+    //       .hero-courses .second-section .second-b .bottom1,
+    //       .hero-courses .second-section .second-c .bottom1{
+    //         padding: 18px;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .writeupone,
+    //       .hero-courses .second-section .second-b .bottom1 .writeupone,
+    //       .hero-courses .second-section .second-c .bottom1 .writeupone {
+    //         display: flex;
+    //         padding-top: 15px;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .writeupone h1,
+    //       .hero-courses .second-section .second-b .bottom1 .writeupone h1,
+    //       .hero-courses .second-section .second-c .bottom1 .writeupone h1{
+    //         color: #000;
     
-            font-family: Aeonik TRIAL;
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: normal;
-          }
-          .hero-courses .second-section .second-a .bottom1 .writeupone .star,
-          .hero-courses .second-section .second-b .bottom1 .writeupone .star,
-          .hero-courses .second-section .second-c .bottom1 .writeupone .star{
-           display: flex;
-           width: 15px;
-           height: 15px; 
-           color: #f6a07e; 
-           margin-top: 15px;
-           margin-left: 60px;
-          }
-          .hero-courses .second-section .second-a .bottom1 .writeupone .star i,
-          .hero-courses .second-section .second-b .bottom1 .writeupone .star i,
-          .hero-courses .second-section .second-c .bottom1 .writeupone .star i{
-            padding-left: 4px;
-          }
-          .hero-courses .second-section .second-a .bottom1 .writeupone .star i.differ,
-          .hero-courses .second-section .second-b .bottom1 .writeupone .star i.differ,
-          .hero-courses .second-section .second-c .bottom1 .writeupone .star i.differ{
-            color: #bebfcd;
-          }
-          .hero-courses .second-section .second-a .bottom1 .writeupone .star .note,
-          .hero-courses .second-section .second-b .bottom1 .writeupone .star .note,
-          .hero-courses .second-section .second-c .bottom1 .writeupone .star .note{
-            margin-left: 6px;
-          }
-          .hero-courses .second-section .second-a .bottom1 h1,
-          .hero-courses .second-section .second-b .bottom1 h1,
-          .hero-courses .second-section .second-c .bottom1 h1{
-            color: var(--Gray1-Travel, #656464);
-            font-family: Open Sans;
-            font-size: 26px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 143.687%; 
-          }
-          .hero-courses .second-section .second-a .bottom1 .last,
-          .hero-courses .second-section .second-b .bottom1 .last,
-          .hero-courses .second-section .second-c .bottom1 .last{
-            padding-top: 25px;
-            display: flex;
-          }
-          .hero-courses .second-section .second-a .bottom1 .last .duration,
-          .hero-courses .second-section .second-a .bottom1 .last .lesson,
+    //         font-family: Aeonik TRIAL;
+    //         font-size: 22px;
+    //         font-style: normal;
+    //         font-weight: 800;
+    //         line-height: normal;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .writeupone .star,
+    //       .hero-courses .second-section .second-b .bottom1 .writeupone .star,
+    //       .hero-courses .second-section .second-c .bottom1 .writeupone .star{
+    //        display: flex;
+    //        width: 15px;
+    //        height: 15px; 
+    //        color: #f6a07e; 
+    //        margin-top: 15px;
+    //        margin-left: 60px;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .writeupone .star i,
+    //       .hero-courses .second-section .second-b .bottom1 .writeupone .star i,
+    //       .hero-courses .second-section .second-c .bottom1 .writeupone .star i{
+    //         padding-left: 4px;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .writeupone .star i.differ,
+    //       .hero-courses .second-section .second-b .bottom1 .writeupone .star i.differ,
+    //       .hero-courses .second-section .second-c .bottom1 .writeupone .star i.differ{
+    //         color: #bebfcd;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .writeupone .star .note,
+    //       .hero-courses .second-section .second-b .bottom1 .writeupone .star .note,
+    //       .hero-courses .second-section .second-c .bottom1 .writeupone .star .note{
+    //         margin-left: 6px;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 h1,
+    //       .hero-courses .second-section .second-b .bottom1 h1,
+    //       .hero-courses .second-section .second-c .bottom1 h1{
+    //         color: var(--Gray1-Travel, #656464);
+    //         font-family: Open Sans;
+    //         font-size: 26px;
+    //         font-style: normal;
+    //         font-weight: 400;
+    //         line-height: 143.687%; 
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .last,
+    //       .hero-courses .second-section .second-b .bottom1 .last,
+    //       .hero-courses .second-section .second-c .bottom1 .last{
+    //         padding-top: 25px;
+    //         display: flex;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .last .duration,
+    //       .hero-courses .second-section .second-a .bottom1 .last .lesson,
           
-          .hero-courses .second-section .second-b .bottom1 .last .duration,
-          .hero-courses .second-section .second-b .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-b .bottom1 .last .duration,
+    //       .hero-courses .second-section .second-b .bottom1 .last .lesson,
           
-          .hero-courses .second-section .second-c .bottom1 .last .duration,
-          .hero-courses .second-section .second-c .bottom1 .last .lesson{
-            display: flex;
-          }
-          .hero-courses .second-section .second-a .bottom1 .last .lesson,
-          .hero-courses .second-section .second-b .bottom1 .last .lesson,
-          .hero-courses .second-section .second-c .bottom1 .last .lesson{
-            margin-left: 20px;
-          }
-          .hero-courses .second-section .second-a .bottom1 .last .duration .font-a, 
-          .hero-courses .second-section .second-a .bottom1 .last .lesson .font-b,
+    //       .hero-courses .second-section .second-c .bottom1 .last .duration,
+    //       .hero-courses .second-section .second-c .bottom1 .last .lesson{
+    //         display: flex;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-b .bottom1 .last .lesson,
+    //       .hero-courses .second-section .second-c .bottom1 .last .lesson{
+    //         margin-left: 20px;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .last .duration .font-a, 
+    //       .hero-courses .second-section .second-a .bottom1 .last .lesson .font-b,
           
-          .hero-courses .second-section .second-b .bottom1 .last .duration .font-a, 
-          .hero-courses .second-section .second-b .bottom1 .last .lesson .font-b,
+    //       .hero-courses .second-section .second-b .bottom1 .last .duration .font-a, 
+    //       .hero-courses .second-section .second-b .bottom1 .last .lesson .font-b,
     
-          .hero-courses .second-section .second-c .bottom1 .last .duration .font-a, 
-          .hero-courses .second-section .second-c .bottom1 .last .lesson .font-b
-          {
-            color: #B92E5E;
-            margin-top: 10px;
-          }
+    //       .hero-courses .second-section .second-c .bottom1 .last .duration .font-a, 
+    //       .hero-courses .second-section .second-c .bottom1 .last .lesson .font-b
+    //       {
+    //         color: #B92E5E;
+    //         margin-top: 10px;
+    //       }
           
-          .hero-courses .second-section .second-a .bottom1 .last .lesson .fifteen,
-          .hero-courses .second-section .second-a .bottom1 .last .duration .weeks,
+    //       .hero-courses .second-section .second-a .bottom1 .last .lesson .fifteen,
+    //       .hero-courses .second-section .second-a .bottom1 .last .duration .weeks,
     
-          .hero-courses .second-section .second-b .bottom1 .last .lesson .fifteen,
-          .hero-courses .second-section .second-b .bottom1 .last .duration .weeks,
+    //       .hero-courses .second-section .second-b .bottom1 .last .lesson .fifteen,
+    //       .hero-courses .second-section .second-b .bottom1 .last .duration .weeks,
     
-          .hero-courses .second-section .second-c .bottom1 .last .lesson .fifteen,
-          .hero-courses .second-section .second-c .bottom1 .last .duration .weeks
-          {
-            margin-top:1px;
-            color: #7B808B;
-            font-family: Open Sans;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 200%; 
-            margin-left: 7px;
-          }
-          .hero-courses .second-section .second-a .bottom1 .last .btn,
-          .hero-courses .second-section .second-b .bottom1 .last .btn,
-          .hero-courses .second-section .second-c .bottom1 .last .btn
+    //       .hero-courses .second-section .second-c .bottom1 .last .lesson .fifteen,
+    //       .hero-courses .second-section .second-c .bottom1 .last .duration .weeks
+    //       {
+    //         margin-top:1px;
+    //         color: #7B808B;
+    //         font-family: Open Sans;
+    //         font-size: 18px;
+    //         font-style: normal;
+    //         font-weight: 400;
+    //         line-height: 200%; 
+    //         margin-left: 7px;
+    //       }
+    //       .hero-courses .second-section .second-a .bottom1 .last .btn,
+    //       .hero-courses .second-section .second-b .bottom1 .last .btn,
+    //       .hero-courses .second-section .second-c .bottom1 .last .btn
           
-          {
-            margin-left: 40px;
-            width: fit-content;
-            bottom: 8px;
-          }
+    //       {
+    //         margin-left: 40px;
+    //         width: fit-content;
+    //         bottom: 8px;
+    //       }
 
-      }
+    //   }
       
       
       
