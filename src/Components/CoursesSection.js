@@ -31,7 +31,7 @@ function Courses() {
             <h1>ggg</h1>
           </div>
 
-          {/* <div
+           <div
               style={{ width: "4", height: "20", backgroundColor: "pink" }}
               className="heading-line"
             >
@@ -45,7 +45,7 @@ function Courses() {
                 <h1>EXPLORE COURSES</h1>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-              </div> */}
+              </div> 
           {/* <div className="first-section">
             <div className="first-a">
               <div className="top1">
