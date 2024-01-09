@@ -23,7 +23,10 @@ function Courses() {
         <link rel="canonical" href="http://learnstack.com/courses" />
       </Helmet>
       <>
-        <div style={{ height: "150vh" }} className="hero-courses">
+        <div
+          style={{ backgroundColor: "wheat", height: "150vh" }}
+          className="hero-courses"
+        >
           <div className="hero-courses">
             <div
               style={{ width: "20%", height: "50", backgroundColor: "blue" }}
