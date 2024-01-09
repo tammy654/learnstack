@@ -24,11 +24,13 @@ function Courses() {
       </Helmet>
       <>
         <div
-          style={{ backgroundColor: "yellow", height: "150vh" }}
-          className="hero-courses">
-        
-          ddd
-          
+          style={{ backgroundColor: "wheat", height: "150vh" }}
+          className="hero-courses"
+        >
+          <div className="hero-courses">
+            <h1>ggg</h1>
+          </div>
+
           {/* <div
               style={{ width: "4", height: "20", backgroundColor: "pink" }}
               className="heading-line"
