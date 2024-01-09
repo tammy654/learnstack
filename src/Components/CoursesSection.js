@@ -1,8 +1,20 @@
-import React from "react";
+import React from 'react';
+import { Helmet } from "react-helmet";
+import { Outlet} from "react-router-dom";
+import {motion} from "framer-motion";
 
-function CoursesSection() {
+function Courses() {
   return (
-    <>
+    <motion.div 
+    initial={{width: 0, opacity: 0}}
+    animate={{width: "100%", opacity: 1}}
+    exit={{ x: window.innerWidth, transition: {
+    duration: 0.1, delay: 0}, opacity: 0}} > 
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Courses - Learnstack</title>
+            <link rel="canonical" href="http://learnstack.com/courses" />
+        </Helmet>
       <p>
         <div className="hero-courses">
           <div className="heading-line"></div>
@@ -248,8 +260,9 @@ function CoursesSection() {
           </div>
         </div>
       </p>
-    </>
+      <Outlet />
+    </motion.div>
   );
 }
 
-export default CoursesSection;
+export default Courses;

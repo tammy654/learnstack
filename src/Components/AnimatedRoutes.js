@@ -1,6 +1,7 @@
 import React from 'react';
 import {Routes, Route, useLocation} from "react-router-dom";
-import Home from "../Pages/Home"
+import Home from "../Pages/Home";
+import Courses from './CoursesSection';
 
 
 
@@ -12,7 +13,8 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence>
          <Routes location={location} key={location.pathname}>
-            <Route index element={<Home />} />    
+            <Route index element={<Home />} />;
+            <Route path="/courses" element={<Courses />} />;
         </Routes>
     </AnimatePresence>
   )
