@@ -55,7 +55,7 @@ function Courses() {
                   style={{ display: "flex", marginLeft: "60%" }}
                   className="Topight"
                 >
-                  <h1>EXPLORE COURSES</h1>
+                  <h5>EXPLORE COURSES</h5>
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </div>
