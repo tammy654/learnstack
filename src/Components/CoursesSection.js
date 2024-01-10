@@ -25,7 +25,7 @@ function Courses() {
       <>
         <div
           style={{
-            paddingTop: "50px",
+            marginTop: "150px",
             backgroundColor: "pink",
             height: "250vh",
           }}
@@ -36,6 +36,7 @@ function Courses() {
               width: "90%",
               height: "95%",
               marginLeft: "5%",
+              backgroundColor: "white",
             }}
             className="hero-courses"
           >
