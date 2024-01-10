@@ -29,7 +29,6 @@ function Courses() {
         >
           <div
             style={{
-              backgroundColor: "pink",
               width: "90%",
               height: "95%",
               marginLeft: "5%",
