@@ -50,6 +50,10 @@ function Courses() {
                 class="line"
               ></div>
               <h1 class="subheading">Popular Courses</h1>
+              <div style={{ display: "flex" }} className="Topight">
+                <h1>EXPLORE COURSES</h1>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
             </div>
             {/* <div
               style={{ width: "20%", height: "50", backgroundColor: "blue" }}
