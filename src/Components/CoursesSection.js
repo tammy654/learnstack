@@ -60,6 +60,13 @@ function Courses() {
                 </div>
               </div>
             </div>
+            <div className="coursesFirst-section">
+            <div className="firstSection-a">
+              <div className="toP1">
+                <div className="firstAmount">
+                  <h1>₦50,000</h1>
+                </div>
+              </div>
 
             {/* 
               <div className="right">
