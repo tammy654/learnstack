@@ -42,17 +42,17 @@ function Courses() {
           >
             <div class="coursesTop">
               <div
-                // style={{
-                //   width: "5%",
-                //   height: "10px",
-                //   backgroundColor: "purple",
-                // }}
+                style={{
+                  width: "4%",
+                  height: "10px",
+                  backgroundColor: "pink",
+                }}
                 class="line"
               ></div>
               <div style={{ display: "flex" }}>
                 <h1 class="subheading">Popular Courses</h1>
                 <div
-                  style={{ display: "flex", marginLeft: "70%" }}
+                  style={{ display: "flex", marginLeft: "60%" }}
                   className="Topight"
                 >
                   <h1>EXPLORE COURSES</h1>
@@ -61,14 +61,7 @@ function Courses() {
               </div>
             </div>
 
-            {/* <div
-              style={{ width: "20%", height: "50", backgroundColor: "blue" }}
-              className="heading-line"
-            ></div> */}
-            {/* <div className="sub-heading">
-              <div className="left">
-                <h1>Popular Courses</h1>
-              </div>
+            {/* 
               <div className="right">
                 <h1>EXPLORE COURSES</h1>
                 <i class="fa-solid fa-arrow-right"></i>
