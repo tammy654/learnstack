@@ -52,7 +52,7 @@ function Courses() {
               <div style={{ display: "flex" }}>
                 <h1 class="subheading">Popular Courses</h1>
                 <div
-                  style={{ display: "flex", marginLeft: "60%" }}
+                  style={{ display: "flex", marginLeft: "65%" }}
                   className="Topight"
                 >
                   <h5>EXPLORE COURSES</h5>
@@ -61,8 +61,8 @@ function Courses() {
               </div>
             </div>
             <div className="coursesFirst-section">
-            <div className="firstSection-a">
-              <div className="toP1">
+              <div className="firstSection-a">
+                <div className="toP1">
                 <div className="firstAmount">
                   <h1>₦50,000</h1>
                 </div>
