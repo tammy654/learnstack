@@ -41,7 +41,14 @@ function Courses() {
             className="hero-courses"
           >
             <div class="coursesTop">
-              <div class="line"></div>
+              <div
+                style={{
+                  width: "5%",
+                  height: "10px",
+                  backgroundColor: "purple",
+                }}
+                class="line"
+              ></div>
               <h1 class="subheading">Popular Courses</h1>
             </div>
             {/* <div
