@@ -24,7 +24,7 @@ function Courses() {
       </Helmet>
       <>
         <div
-          style={{ backgroundColor: "wheat", height: "150vh" }}
+          style={{ backgroundColor: "wheat", height: "250vh" }}
           className="courses"
         >
           <div
@@ -32,7 +32,8 @@ function Courses() {
               backgroundColor: "pink",
               width: "80%",
               height: "80%",
-              marginLeft: "40px",
+              marginLeft: "5%",
+              marginTop: "10%",
             }}
             className="hero-courses"
           >
