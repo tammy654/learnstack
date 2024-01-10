@@ -24,7 +24,11 @@ function Courses() {
       </Helmet>
       <>
         <div
-          style={{ backgroundColor: "wheat", height: "250vh" }}
+          style={{
+            paddingTop: "50px",
+            backgroundColor: "pink",
+            height: "250vh",
+          }}
           className="courses"
         >
           <div
