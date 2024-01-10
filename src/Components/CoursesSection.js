@@ -43,9 +43,9 @@ function Courses() {
             <div class="coursesTop">
               <div
                 style={{
-                  width: "4%",
-                  height: "10px",
-                  backgroundColor: "pink",
+                  width: "7%",
+                  height: "7px",
+                  backgroundColor: "blue",
                 }}
                 class="line"
               ></div>
