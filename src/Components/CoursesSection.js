@@ -31,9 +31,8 @@ function Courses() {
             style={{
               backgroundColor: "pink",
               width: "90%",
-              height: "90%",
+              height: "95%",
               marginLeft: "5%",
-              marginTop: "5%",
             }}
             className="hero-courses"
           >
