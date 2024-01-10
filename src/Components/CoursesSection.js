@@ -68,7 +68,9 @@ function Courses() {
                   <h1>₦50,000</h1>
                 </div>
               </div>
-
+<div>
+  wfwwr
+</div>
            
             {/* <div className="first-section">
             <div className="first-a">
