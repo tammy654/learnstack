@@ -60,7 +60,8 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div className="coursesFirst-section">
+            <div style={{display: "flex", paddingTop: "60px", width:"100%", height:"45%"
+    }} className="coursesFirst-top">
               <div className="firstSection-a">
                 <div className="toP1">
                 <div className="firstAmount">
@@ -68,12 +69,7 @@ function Courses() {
                 </div>
               </div>
 
-            {/* 
-              <div className="right">
-                <h1>EXPLORE COURSES</h1>
-                <i class="fa-solid fa-arrow-right"></i>
-              </div>
-            </div> */}
+           
             {/* <div className="first-section">
             <div className="first-a">
               <div className="top1">
