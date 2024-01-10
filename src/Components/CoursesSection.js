@@ -25,8 +25,8 @@ function Courses() {
       <>
         <div
           style={{
-            marginTop: "150px",
-            backgroundColor: "pink",
+            marginTop: "350px",
+            backgroundColor: "yellow",
             height: "250vh",
           }}
           className="courses"
