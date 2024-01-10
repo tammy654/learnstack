@@ -29,11 +29,11 @@ function Courses() {
         >
           <div
             style={{
-              backgroundColor: "pink",
+              backgroundColor: "grey",
               width: "80%",
-              height: "80%",
+              height: "90%",
               marginLeft: "5%",
-              marginTop: "10%",
+              marginTop: "5%",
             }}
             className="hero-courses"
           >
