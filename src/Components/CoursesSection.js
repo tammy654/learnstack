@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import { Helmet } from "react-helmet";
-import { Outlet} from "react-router-dom";
-import {motion} from "framer-motion";
+import { Outlet } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Courses() {
   return (
@@ -18,12 +18,19 @@ function Courses() {
             <div className="left">
               <h1>Popular Courses</h1>
             </div>
-            <div className="right">
-              <h1>EXPLORE COURSES</h1>
-              <i class="fa-solid fa-arrow-right"></i>
-            </div>
-          </div>
-          <div className="first-section">
+            <div style={{display: "flex", paddingTop: "60px", width:"100%", height:"45%"
+    }} className="coursesFirst-top">
+              <div className="firstSection-a">
+                <div className="toP1">
+                <div className="firstAmount">
+                  <h1>₦50,000</h1>
+                </div>
+              </div>
+<div>
+  wfwwr
+</div>
+           
+            {/* <div className="first-section">
             <div className="first-a">
               <div className="top1">
                 <div className="amount">
@@ -136,8 +143,8 @@ function Courses() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="second-section">
+              </div> */}
+            {/* <div className="second-section">
             <div className="second-a">
               <div className="top1">
                 <div className="amount">
@@ -253,10 +260,12 @@ function Courses() {
                 </div>
               </div>
             </div>
+            </div> */}
           </div>
         </div>
       </p>
-    </>
+      <Outlet />
+    </motion.div>
   );
 }
 
