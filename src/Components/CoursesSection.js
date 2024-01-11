@@ -5,16 +5,7 @@ import {motion} from "framer-motion";
 
 function Courses() {
   return (
-    <motion.div 
-    initial={{width: 0, opacity: 0}}
-    animate={{width: "100%", opacity: 1}}
-    exit={{ x: window.innerWidth, transition: {
-    duration: 0.1, delay: 0}, opacity: 0}} > 
-        <Helmet>
-            <meta charSet="utf-8" />
-            <title>Courses - Learnstack</title>
-            <link rel="canonical" href="http://learnstack.com/courses" />
-        </Helmet>
+    <>
       <p>
         <Helmet>
           <meta charSet="utf-8" />
@@ -265,8 +256,7 @@ function Courses() {
           </div>
         </div>
       </p>
-      <Outlet />
-    </motion.div>
+    </>
   );
 }
 

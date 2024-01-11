@@ -9,16 +9,7 @@ import HomeWhyChooseUs from '../Components/HomeWhyChooseUs'
 
 function Home() {
   return (
-    <motion.div 
-    initial={{width: 0, opacity: 0}}
-    animate={{width: "100%", opacity: 1}}
-    exit={{ x: window.innerWidth, transition: {
-    duration: 0.1, delay: 0}, opacity: 0}} > 
-        <Helmet>
-            <meta charSet="utf-8" />
-            <title>Home - Learnstack</title>
-            <link rel="canonical" href="http://learnstack.com/home" />
-        </Helmet>
+    <>
     <div class="homepage-section-three">
      <div class="sub">
         <div class="top">
@@ -89,51 +80,8 @@ function Home() {
      </div>
 
     </div>
-    <div class="homepage-section-eight">
-      <div class="sub">
-        <div class="up">
-          <div class="line"></div>
-          <h1 class="sub-heading">
-                Our Testimonials
-          </h1>
-          <h1 class="details marker2">See what our students have to say about their transformative learning experiences.</h1>
-        </div>
-        <div class="bottom">
-          <div class="left w3-col l6 m6 s12">
-            <div class="box ">
-              <div class="overlay"/>
-              <div class="img"></div>
-
-            </div>
-          </div>
-          <div class="right w3-col l6 m6 s12">
-            <div class="top">
-              <h1 class="sub-title">Floyd Miles</h1>
-              <h1 class="details">Student | Front-End Development</h1>
-              <i class="fa-solid fa-quote-left float"></i>
-            </div>
-            <div class="write-up">
-              <div class="details">
-                Choosing Learn Stack for your tech education means embarking on a transformative learning  journey  tailored to modern industry demands. 
-                Our academy stands out for its commitment to providing  top-tier education, fostering innovation, and preparing students for dynamic tech careers.
-              </div>
-              <div class="swipe-btns">
-                <span class="prevbtn">
-                  <i class="fa-solid fa-arrow-left"></i>
-                </span>
-                <span class="nextbtn">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </span>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <Outlet />
-    </motion.div>
+    
+    </>
   )
 }
 

@@ -228,17 +228,7 @@
     gap: 0px; 
     margin: auto;
   }
-  .nav .sub .navbrand{
-    min-width: fit-content;
-    max-width: auto;
-    height: 100%;
-    z-index: 2;
-    position: relative; 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+  .nav .sub 
   .nav .sub .navbrand .logoMark{
     width:fit-content;
     height: clamp(50px, 2vw, 60px);
@@ -542,6 +532,7 @@
       color: var(--support_color);
     }
   }
+  
   .homepage-section-three{
     width: 100%;
     height: fit-content;
