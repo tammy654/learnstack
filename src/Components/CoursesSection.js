@@ -5,18 +5,60 @@ import { motion } from "framer-motion";
 
 function Courses() {
   return (
-    <>
-      <p>
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Courses - learnstack</title>
-          <link rel="canonical" href="http://learnstack.com/courses" />
-        </Helmet>
-        <div className="hero-courses">
-          <div className="heading-line"></div>
-          <div className="sub-heading">
-            <div className="left">
-              <h1>Popular Courses</h1>
+    <motion.div
+      initial={{ width: 0, opacity: 0 }}
+      animate={{ width: "100%", opacity: 1 }}
+      exit={{
+        x: window.innerWidth,
+        transition: {
+          duration: 0.1,
+          delay: 0,
+        },
+        opacity: 0,
+      }}
+    >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Courses - Learnstack</title>
+        <link rel="canonical" href="http://learnstack.com/courses" />
+      </Helmet>
+      <>
+        <div
+          style={{
+            marginTop: "150px",
+            backgroundColor: "wheat",
+            height: "250vh",
+          }}
+          className="courses"
+        >
+          <div
+            style={{
+              width: "90%",
+              height: "95%",
+              marginLeft: "5%",
+              backgroundColor: "gery",
+            }}
+            className="hero-courses"
+          >
+            <div class="coursesTop">
+              <div
+                style={{
+                  width: "7%",
+                  height: "7px",
+                  backgroundColor: "blue",
+                }}
+                class="line"
+              ></div>
+              <div style={{ display: "flex" }}>
+                <h1 class="subheading">Popular Courses</h1>
+                <div
+                  style={{ display: "flex", marginLeft: "65%" }}
+                  className="Topight"
+                >
+                  <h5>EXPLORE COURSES</h5>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
             </div>
             <div style={{display: "flex", paddingTop: "60px", width:"100%", height:"45%"
     }} className="coursesFirst-top">
@@ -263,7 +305,7 @@ function Courses() {
             </div> */}
           </div>
         </div>
-      </p>
+      </>
       <Outlet />
     </motion.div>
   );
